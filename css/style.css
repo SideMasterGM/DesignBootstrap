@@ -1,0 +1,216 @@
+.first-container-fluid .container {
+    padding: 6px;
+}
+
+.first-container-fluid {
+    background-color: #868686;
+}
+
+.first-container-fluid .container ul.nav li.nav-item a.nav-link {
+    color: #fff;
+}
+
+.first-container-fluid .container ul.nav li.nav-item a.active {
+    background-color: #eceaea;
+    color: #000;
+    border-radius: 0;
+    font-weight: bold;
+}
+
+.second-container-fluid img {
+    margin: 0 auto;
+    display: block;
+    padding: 30px;
+}
+
+.third-container-fluid {
+    background: url(../src/third-container.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.third-container-fluid .container {
+    padding: 140px 0;
+}
+
+.third-container-fluid .container label.title {
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.third-container-fluid .container p.paragraph {
+    font-weight: bold;
+}
+
+.third-container-fluid .container input {
+    background-color: rgba(0,0,0,.5);
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.fourth-container .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.fourth-container h4 {
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
+
+.fourth-container h5 {
+    margin-bottom: 20px;
+}
+
+.fourth-container .row .fourth-container-img {
+    background: url(../src/fourth-container.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.fourth-container .row .fourth-container-paragraph {
+    padding: 80px 20px;
+}
+
+.fourth-container .row .fourth-container-paragraph .title {
+    font-weight: bold;
+}
+
+.fourth-container .row .fourth-container-paragraph .paragraph {
+    text-align: justify;
+}
+
+.fourth-container .row .fourth-container-paragraph input {
+    float: right;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 3px;
+    background-color: #b6b6b6;
+    cursor: pointer;
+}
+
+.fifth-container-fluid {
+    background-color: #868686;
+    color: #fff;
+    text-align: center;
+}
+
+.fifth-container-fluid .container h3 {
+    text-transform: uppercase;
+    padding: 30px;
+}
+
+.fifth-container-fluid .container .row div img {
+    width: auto;
+    height: 200px;
+}
+
+.fifth-container-fluid .container .row div p.title {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.sixth-container {
+    margin: 0 auto;
+}
+
+.sixth-container .row div {
+    padding: 50px;
+}
+
+.sixth-container .row div p {
+    text-align: justify;
+}
+
+.sixth-container .row div input {
+    background-color: #868686;
+    padding: 15px 50px;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+}
+
+.seventh-container-fluid .container .row div img.img-galery {
+    border: 6px solid #fff;
+    border-radius: 8px;
+    background-size: cover;
+    width: 100%;
+}
+
+.seventh-container-fluid .container .row div input {
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+    padding: 10px;
+    margin: 25px;
+}
+
+.eighth-container .row {
+    margin: 10px;
+}
+
+.eighth-container .row .col-lg-12 {
+    border: 1px solid #868686;
+    padding: 20px;
+}
+
+.eighth-container .row .col-lg-12 h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nineth-container .row .col-lg-6 .testing {
+    border: 1px solid #868686;
+    width: 96%;
+    margin-left: 10px;
+    padding: 20px;
+}
+
+.nineth-container .row .col-lg-6 h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 990px) {
+    .fourth-container .row .fourth-container-img {
+        height: 350px;
+    }
+
+    .fourth-container .row .fourth-container-paragraph {
+        padding: 30px 0;
+    }
+
+    .fifth-container-fluid .container .row div img {
+        width: 100%;
+        height: auto;
+    }
+
+    .fifth-container-fluid .container .row div p.paragraph {
+        margin-bottom: 40px;
+    }
+
+    .sixth-container .row div {
+        padding: 15px 5px 0 5px;
+    }
+
+    .sixth-container .row div input {
+        width: 100%;
+    }
+
+    .seventh-container-fluid .container .row div img.img-galery {
+        height: 170px;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .seventh-container-fluid .container .row div img.img-galery {
+        width: 100%;
+        height: auto;
+        margin-bottom: 15px;
+    }
+}
