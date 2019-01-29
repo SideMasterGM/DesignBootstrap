@@ -10,11 +10,19 @@
     color: #fff;
 }
 
+.first-container-fluid .container ul.nav li.nav-item a {
+    border-radius: 0;
+}
+
 .first-container-fluid .container ul.nav li.nav-item a.active {
     background-color: #eceaea;
     color: #000;
-    border-radius: 0;
     font-weight: bold;
+}
+
+.first-container-fluid .container ul.nav li.nav-item a:hover {
+    background-color: rgba(0,0,0,.3);
+    color: #fff;
 }
 
 .second-container-fluid img {
@@ -24,7 +32,7 @@
 }
 
 .third-container-fluid {
-    background: url(../src/third-container.jpg) no-repeat center center;
+    background: url(../src/third/third-container.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -50,7 +58,11 @@
     border-radius: 3px;
     padding: 5px 10px;
     color: #fff;
+}
+
+.third-container-fluid .container input:hover {
     cursor: pointer;
+    background-color: rgba(0,0,0,.3);
 }
 
 .fourth-container .row {
@@ -68,7 +80,7 @@
 }
 
 .fourth-container .row .fourth-container-img {
-    background: url(../src/fourth-container.jpg) no-repeat center center;
+    background: url(../src/fourth/fourth-container.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -134,11 +146,21 @@
     border-radius: 8px;
 }
 
+.sixth-container .row div input:hover {
+    background-color: rgba(0,0,0,.4);
+    cursor: pointer;
+}
+
 .seventh-container-fluid .container .row div img.img-galery {
     border: 6px solid #fff;
     border-radius: 8px;
     background-size: cover;
     width: 100%;
+}
+
+.seventh-container-fluid .container .row div img.img-galery:hover {
+    -webkit-transition: all .5s ease-in-out;
+    filter: grayscale(100%);
 }
 
 .seventh-container-fluid .container .row div input {
@@ -164,6 +186,10 @@
     font-weight: bold;
 }
 
+.nineth-container {
+    margin-bottom: 30px;
+}
+
 .nineth-container .row .col-lg-6 .testing {
     border: 1px solid #868686;
     width: 96%;
@@ -174,6 +200,65 @@
 .nineth-container .row .col-lg-6 h2 {
     text-transform: uppercase;
     font-weight: bold;
+}
+
+.eleventh-container-fluid {
+    background-color: #868686;
+    padding: 10px;
+}
+
+.eleventh-container-fluid p {
+    margin: 0;
+    text-align: center;
+    color: #fff;
+}
+
+.tenth-container-fluid .row .row-contact {
+    background-color: #383333;
+    color: #fff;
+    padding: 40px;
+}
+
+.tenth-container-fluid .row .row-map {
+    padding: 0;
+    margin: 0;
+}
+
+.tenth-container-fluid .row .row-map iframe {
+    width: 100%;
+}
+
+.tenth-container-fluid .row .row-contact .contact .credit-cards-logo {
+    margin: 20px 0;
+}
+
+.tenth-container-fluid .row .row-contact .contact .credit-cards-logo div {
+    margin-top: 15px;
+    width: 80px;
+    height: 40px;
+    display: inline-block;
+    cursor: pointer;
+    filter: grayscale(95%);
+}
+
+.tenth-container-fluid .row .row-contact .contact .credit-cards-logo .credit-card-ae {
+    background: url(../src/credit-cards/AE.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.tenth-container-fluid .row .row-contact .contact .credit-cards-logo .credit-card-mc {
+    background: url(../src/credit-cards/MC.png) no-repeat center center;
+    background-size: cover;
+}
+
+.tenth-container-fluid .row .row-contact .contact .credit-cards-logo .credit-card-visa {
+    background: url(../src/credit-cards/Visa.png) no-repeat center center;
+    background-size: cover;
+}
+
+.tenth-container-fluid .row .row-contact .contact .credit-cards-logo .credit-card-paypal {
+    background: url(../src/credit-cards/Paypal.png) no-repeat center center;
+    background-size: cover;
 }
 
 @media only screen and (max-width: 990px) {
@@ -200,10 +285,25 @@
 
     .sixth-container .row div input {
         width: 100%;
+        margin-bottom: 30px;
     }
 
     .seventh-container-fluid .container .row div img.img-galery {
         height: 170px;
+    }
+
+    .eighth-container .row .col-lg-6 {
+        width: 100%;
+    }
+
+    .nineth-container .row .col-lg-6 .testing {
+        margin-bottom: 15px;
+        margin-left: 10px;
+        width: 97%;
+    }
+
+    .tenth-container-fluid .row .row-map {
+        height: 300px;
     }
 }
 

@@ -7,7 +7,14 @@ $(function() {
     });
 
     $("#galery-more_images").click( () => {
-        $(".galery-hidden").show();
-        $(".row-more_images").hide();
+        let moreGalery = $("#galery-more_images").val();
+
+        if (moreGalery == "More images..."){
+            $(".galery-hidden").show();
+            $("#galery-more_images").val("Less images...");
+        } else {
+            $(".galery-hidden").hide();
+            $("#galery-more_images").val("More images...");
+        }
     });
 });
