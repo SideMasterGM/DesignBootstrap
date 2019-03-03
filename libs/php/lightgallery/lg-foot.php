@@ -4,4 +4,4 @@
     });
 </script>
 
-<script src="../libs/js/lightgallery/lightgallery-all.min.js"></script>
+<script src="/libs/js/lightgallery/lightgallery-all.min.js"></script>

@@ -18,7 +18,7 @@
 
         <script src="../libs/js/jquery-3.3.1.slim.min.js"></script>
         <script src="../libs/js/bootstrap.min.js"></script>
-        <script src="../libs/js/jquery.mousewheel.min.js"></script>
+        <!-- <script src="../libs/js/jquery.mousewheel.min.js"></script> -->
 
         <?php include ("../libs/php/lightgallery/lg-head.php"); ?>
     </head>
