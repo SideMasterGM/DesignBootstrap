@@ -7,4 +7,9 @@
 <script src="libs/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="css/style.css">
 
+<?php
+    $filename = basename($_SERVER['PHP_SELF']);
+    $count_img = 0;
+?>
+
 <?php include ("libs/php/lightgallery/lg-head.php"); ?>

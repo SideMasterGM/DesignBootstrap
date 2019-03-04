@@ -3,9 +3,8 @@
         <ul class="nav nav-pills">
 
             <?php
-                $filename = basename($_SERVER['PHP_SELF']);
-
                 if ($filename == "index.php"){
+                    $count_img = 10;
                     ?>
                         <li class="nav-item">
                             <a class="nav-link active" href="./">HOME</a>
@@ -34,6 +33,7 @@
                 }
 
                 if ($filename == "portfolio.php"){
+                    $count_img = 24;
                     ?>
                         <li class="nav-item">
                             <a class="nav-link active" href="./portfolio.php">PORTFOLIO</a>
@@ -60,12 +60,7 @@
                         </li>
                     <?php
                 }
-            ?>
-
-            
-            
-            
-            
+            ?>            
         </ul>
     </div>
 </div>
