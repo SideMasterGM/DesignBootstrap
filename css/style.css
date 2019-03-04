@@ -3,7 +3,7 @@
 }
 
 .first-container-fluid {
-    background-color: #868686;
+    background-color: #47e949;
 }
 
 .first-container-fluid .container ul.nav li.nav-item a.nav-link {
@@ -79,8 +79,13 @@
     margin-bottom: 20px;
 }
 
-.fourth-container .row .fourth-container-img {
+/* .fourth-container .row .fourth-container-img {
     background: url(../src/fourth/fourth-container.jpg) no-repeat center center;
+    background-size: cover;
+} */
+
+.fourth-container .row .fourth-container-img {
+    background: url(../src/client/full/her15.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -106,7 +111,7 @@
 }
 
 .fifth-container-fluid {
-    background-color: #868686;
+    background-color: #47e949;
     color: #fff;
     text-align: center;
 }
@@ -139,7 +144,7 @@
 }
 
 .sixth-container .row div input {
-    background-color: #868686;
+    background-color: #47e949;
     padding: 15px 50px;
     color: #fff;
     border: none;
@@ -177,7 +182,7 @@
 }
 
 .eighth-container .row .col-lg-12 {
-    border: 1px solid #868686;
+    border: 1px solid #47e949;
     padding: 20px;
 }
 
@@ -191,7 +196,7 @@
 }
 
 .nineth-container .row .col-lg-6 .testing {
-    border: 1px solid #868686;
+    border: 1px solid #47e949;
     width: 96%;
     margin-left: 10px;
     padding: 20px;
@@ -203,7 +208,7 @@
 }
 
 .eleventh-container-fluid {
-    background-color: #868686;
+    background-color: #47e949;
     padding: 10px;
 }
 
@@ -214,7 +219,7 @@
 }
 
 .tenth-container-fluid .row .row-contact {
-    background-color: #383333;
+    background-color: #482929;
     color: #fff;
     padding: 40px;
 }
@@ -313,4 +318,22 @@
         height: auto;
         margin-bottom: 15px;
     }
+}
+
+div.social_network {
+    position: absolute;
+    right: 10%;
+    top: 10px;
+    width: 30px;
+    height: 15px;
+    cursor: pointer;
+}
+
+
+div.social_network img {
+    width: 100%;
+}
+
+div.social_network img {
+    box-shadow: 0 2px 0 #fff;
 }

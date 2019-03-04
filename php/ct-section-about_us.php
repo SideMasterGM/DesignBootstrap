@@ -12,7 +12,7 @@
         <div class="col-lg-6">
             <div class="testing">
                 <h2>Mission</h2>
-                <p>Irure velit sit officia ullamco. Cpidatat qui tempor anim. Minim Lorem dolore ullamco tempor aute excepteur magna. Incididunt incididunt excepteur anim excepteur occaecat proident nulla.</p>
+                <p>Be the best service provider in the world. To achieve this, we have established a culture that supports the members of our team so that they can provide exceptional service to our customers.</p>
             </div>
         </div>
 

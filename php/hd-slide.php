@@ -32,8 +32,8 @@
 
 <div class="container-fluid third-container-fluid">
     <div class="container">
-        <label class="title">Incididunt eu ea aliquip ad fugiat.</label>
-        <p class="paragraph">Enim fugiat aliquip nostrud consectetur. In mollit id id aute laboris sit deserunt proident voluptate. Esse ea magna pariatur dolore est anim cupidatat tempor. Dolor nostrud nostrud deserunt labore veniam in et enim ullamco ipsum pariatur. Consectetur cupidatat non do commodo aute ipsum tempor excepteur tempor ad enim. Deserunt veniam cupidatat irure officia proident et irure tempor Lorem duis dolor.</p>
+        <label class="title">20 Years of Experience.</label>
+        <p class="paragraph" style="color: white;">When considering a company that will come to your yard and make changes to suit your needs, you want someone that is reliable and trustworthy. Hernandez J Landscaping understands this which is why we strive to be considerate of your different needs and treat your landscape with the best care. When working with us, you won’t have to worry about just anyone else working on your landscape.</p>
         <input type="button" value="About Us" />
         <input type="button" value="How we work" />
     </div>

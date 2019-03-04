@@ -60,7 +60,11 @@
                         </li>
                     <?php
                 }
-            ?>            
+            ?>
         </ul>
+
+        <div class="social_network" title="Hernandez J landscaping">
+            <a href="https://www.facebook.com/Hernandez-J-landscaping-1305435579559128/" target="_blank"><img src="src/credit-cards/fb.png" alt="Facebook Page"/></a>
+        </div>
     </div>
 </div>
