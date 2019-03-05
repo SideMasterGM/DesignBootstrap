@@ -323,17 +323,17 @@
 div.social_network {
     position: absolute;
     right: 10%;
-    top: 10px;
+    top: 20%;
     width: 30px;
     height: 15px;
     cursor: pointer;
 }
 
 
-div.social_network img {
-    width: 100%;
+.social_network img {
+    width: 20%;
 }
 
-div.social_network img {
+.social_network img {
     box-shadow: 0 2px 0 #fff;
 }

@@ -1,5 +1,5 @@
 <div class="container-fluid eleventh-container-fluid">
-    <p>Copyright 2019 Summit Landscaping Los Gatos, All Rights Reserved</p>
+    <p>Copyright 2019 Hernandez J Landscaping, All Rights Reserved</p>
 </div>
 
 <div class="modal fade" id="ZoomImage" tabindex="-1" role="dialog" aria-labelledby="ZoomImage" aria-hidden="true">

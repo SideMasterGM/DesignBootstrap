@@ -9,7 +9,7 @@
     }
 
     if ($filename == "services.php"){
-        include ("libs/php/lightgallery/lg-body.php");
+        include ("services.php");
     }
 
     if ($filename == "portfolio.php"){
@@ -17,7 +17,13 @@
     }
 
     if ($filename == "contact.php"){
-        include ("libs/php/lightgallery/lg-body.php");
+        // include ("libs/php/lightgallery/lg-body.php");
+        include ("php/contact-form.php");
+    }
+
+    if ($filename == "about.php"){
+        // include ("libs/php/lightgallery/lg-body.php");
+        include ("php/about.php");
     }
 
     include ("php/ct-section-contact.php");

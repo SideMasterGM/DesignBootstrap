@@ -17,6 +17,19 @@
                         </li>
                     <?php
                 }
+                if ($filename == "about.php"){
+                    ?>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./about.php">ABOUT</a>
+                        </li>
+                    <?php
+                } else {
+                    ?>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about.php">ABOUT</a>
+                        </li>
+                    <?php
+                }
 
                 if ($filename == "services.php"){
                     ?>
@@ -60,11 +73,12 @@
                         </li>
                     <?php
                 }
+
             ?>
         </ul>
 
-        <div class="social_network" title="Hernandez J landscaping">
+        <!-- <div class="social_network" title="Hernandez J landscaping">
             <a href="https://www.facebook.com/Hernandez-J-landscaping-1305435579559128/" target="_blank"><img src="src/credit-cards/fb.png" alt="Facebook Page"/></a>
-        </div>
+        </div> -->
     </div>
 </div>
