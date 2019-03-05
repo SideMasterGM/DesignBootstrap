@@ -1,0 +1,38 @@
+<?php 
+include 'php/section/header.php';
+include 'php/section/click2-to-call.php';
+include 'php/section/slider.php';
+include 'php/section/bar2.php';
+include 'php/section/welcome1.php';
+include 'php/section/services5.php';
+// include 'php/section/bar-why.php';
+include 'php/section/mission.php';
+include 'php/section/bar1.php';
+include 'php/section/services2.php';
+include 'php/section/portfolio.php';
+include 'php/section/bar2-1.php';
+// include 'php/section/bar3.php';
+// include 'php/section/bar-serv1.php';
+// include 'php/section/services.php';
+// include 'php/section/services1.php';
+// include 'php/section/bar-vision.php';
+// include 'php/section/bar-doble.php';
+// include 'php/section/welcome2.php';
+// include 'php/section/services3.php';
+// include 'php/section/bar-serv1.php';
+// include 'php/section/about.php';
+// include 'php/section/services6.php';
+// include 'php/section/bar1-img.php';
+// include 'php/section/bar4.php';
+// include 'php/section/services6-1.php';
+// include 'php/section/services4.php';
+// include 'php/section/why2.php';
+// include 'php/section/portfolio2.php';
+// include 'php/section/video.php';
+// include 'php/section/testimonials.php';
+// include 'php/widgets/contact.php';
+// include 'php/section/coupon.php';
+// include 'php/section/blog.php';
+// include 'php/section/brands.php';
+include 'php/section/footer3.php';
+?>
