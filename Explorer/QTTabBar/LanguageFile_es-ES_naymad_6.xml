@@ -1,0 +1,1821 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<root>
+<FormatVersion>2</FormatVersion>
+  
+<!--##############################################################
+
+    Localization file for QTTabBar ver 1036 ( 2015-12-03 )
+
+                * {0} is used as a placeholder
+                * [[|]] is used to represent singular/plural expressions.
+                  ex. ind[[ex|ices]], folder[[|s]]
+                * Empty or missing lines will be filled by QTTabBar with default English resources.
+                * This file is not compatible with QTTabBars earlier than ver 128.
+
+    ##############################################################-->
+
+<!--Indicates the target version of QTTabBar-->
+<Version>1036</Version>
+
+<!--META DATA-->
+<Author>naymad </Author>
+<Revision>6</Revision>
+<Locale>es-ES</Locale>
+<Contact>naymad</Contact>
+<DateModified>22/01/2016 9:06:06</DateModified>
+<EditorVersion>1.0.0.5</EditorVersion>
+
+<!--DATA START-->
+<ButtonBarButtons>
+Separador
+Atrás
+Adelante
+Grupos
+Pestañas recientes
+Aplicaciones
+Nueva ventana
+Clonar pestaña actual
+Bloquear
+Herramienta para copiar
+Siempre encima
+Cerrar pestaña
+Cerrar pestañas menos la actual
+Cerrar ventana
+Cerrar pestañas a la izquierda
+Cerrar pestañas a la derecha
+Subir un nivel
+Restaurar
+Buscar
+Opciones
+Archivos recientes
+Opacidad 
+Des/Habilitar vista previa
+Cuadro de búsqueda
+</ButtonBarButtons>
+
+
+<ButtonBarMenu>
+&amp;Personalizar...
+&amp;Bloquear menús
+Ruta de acceso
+Nombre
+Ruta de la carpeta
+Nombre de la carpeta
+Hash de archivo
+Rutas de las pestañas
+Carpeta actual
+(Múltiples elementos)
+Carpeta de trabajo
+Detener imagen
+Detener película y música
+Detener texto
+No hay subelementos
+</ButtonBarMenu>
+
+
+<ButtonBarTooltip>
+Atrás a {0} (Alt+Flecha izquierda)
+Adelante a {0} (Alt+Flecha derecha)
+Páginas recientes
+Grupos que almacenan enlaces a carpetas.
+Carpetas a las que se ha accedido recientemente.
+Enlaces a las aplicaciones registradas.
+Abre la pestaña activa en una nueva ventana.
+Clona la pestaña activa y la añade a la barra.
+Bloquea la pestaña activa y evita que se cierre.
+Menú para copiar nombres, rutas, etc...
+Establece esta ventana siempre encima.
+Cierra la pestaña activa.
+Cierra todas las pestañas menos la pestaña activa.
+Cierra esta ventana.
+Cierra las pestañas a la izquierda de la activa.
+Cierra las pestañas a la derecha de la activa.
+Sube un nivel.
+Refresca la vista de carpeta.
+Abre la búsqueda de carpeta en una nueva pestaña.
+Abre la ventana de opciones de QTTabBar.
+Archivos a los que se ha accedido recientemente.
+Establece la transparencia de esta ventana.
+Habilita o deshabilita la vista previa de imágenes, media y texto. 
+Filtros de vista actual por cadena de entrada.
+Copia en el portapapeles la ruta de la selección actual.
+Copia en el portapapeles el nombre de la selección actual.
+Copia en el portapapeles la ruta de la carpeta actual.
+Copia en el portapapeles el nombre de la carpeta actual.
+Calcula y muestra los hashes de los archivos seleccionados.
+Copia en el portapapeles las rutas de todas las pestañas.
+Abre la ventana de opciones de la Barra de Botones para añadir más botones.
+Habilita o deshabilita la reordenación de los elementos de menú de grupo y aplicaciones.
+Detiene la vista previa de imágenes
+Detiene la vista previa de películas y música
+Detiene la vista previa de textos.
+Arrastra los botones a esta carpeta para añadirlos como subelementos.
+</ButtonBarTooltip>
+
+
+<CommandBarDragDrop>
+Crear un botón aquí
+Mover el botón aquí
+Copiar el botón aquí
+Barra de herramientas bloqueada
+Mover el botón y crear un elemento subordinado
+Copiar el botón y crear un elemento subordinado
+Esperar al menú desplegable
+</CommandBarDragDrop>
+
+
+<CommandBarDialog>
+Está añadiendo {0} en Barra de Comandos.\r\n¿Seguro que desea continuar? 
+</CommandBarDialog>
+
+
+<CommandBarEditor>
+Editar comando
+Nuevo comando
+General
+Elementos subordinados
+Tipo de comando:
+Tipo de botón:
+Ruta del icono:
+Atajo de teclado:
+Mostrar texto
+Mostrar icono
+Opciones
+ID de comando
+ID de comando
+Argumentos
+Opciones del archivo de comandos
+Detalles
+Ruta de acceso
+Argumentos
+Directorio de trabajo
+Verbo
+Acción
+Tiempo de espera de la red (ms)
+Saltar resolución de direcciones de red
+Permitir soltar archivo para este elemento
+Expandir los archivos de esta carpeta en vez de los elementos subordinados
+Nombre del grupo
+Acción
+Expandir los integrantes del grupo en vez de los elementos subordinados
+Nuevo elemento
+Fijar en la esquina superior izquierda
+Vista asociada:
+No especificado
+Por defecto
+Vista extra (abajo)
+Vista extra (izquierda)
+Selecciona grupo para añadir.
+Tamaño de la ventana:
+Secuencias de comandos
+Cuando este comando ejecuta un archivo script, QTTabBar puede esperar hasta que el proceso finalice y devuelva su valor.
+Espere hasta que termine la secuencia de comandos
+Tiempo de espera (en milisegundos)
+Submenú:
+Sin submenú
+Expandir
+</CommandBarEditor>
+
+
+<CommandBarFileAction>
+Por defecto
+Nueva pestaña
+Nueva pestaña en segundo plano
+In situ
+Nueva ventana
+Ejecutar con el sistema
+</CommandBarFileAction>
+
+
+<CommandBarGroupAction>
+Por defecto
+Segundo plano
+Nueva ventana
+Reemplazar
+</CommandBarGroupAction>
+
+
+<CommandBarSubType>
+Botón
+Botón desplegable
+Botón separador
+</CommandBarSubType>
+
+
+<CommandBarType>
+Comando básico
+Comando avanzado
+Archivo y Carpeta
+Grupo
+PlugIn
+</CommandBarType>
+
+
+<CommandBarWindowSize>
+Ventana normal
+Maximizada
+Minimizada
+Oculta
+</CommandBarWindowSize>
+
+
+<CommandTokens>
+Valor devuelto por el comando subordinado
+Valor devuelto por el comando subordinado{0}
+Valor devuelto por el comando hermano
+Valor devuelto por el comando hermano{0}
+Valor en la ranura de datos{0}
+Expresión de texto de los datos del evento
+Valor de la clave para obtener los datos del evento
+Negar un valor booleano sucesivo
+</CommandTokens>
+
+
+<DefaultFont>
+Segoe UI
+9
+</DefaultFont>
+
+
+<DesktopTool>
+Habilitar menú en la Barra de Tareas
+Habilitar menú en el Escritorio
+Bloquear elementos
+Dibujar fondo del título
+Con clic sobre la barra de herramientas
+Habilitar teclas de acceso directo de la aplicación
+Opacidad del menú
+Grupos
+Pestañas recientes
+Aplicaciones
+Archivos recientes
+Archivos del escritorio
+Con clic sobre el escritorio
+Con clic en botón central sobre el escritorio
+Elementos menú
+Como visualizar el menú
+Con doble clic sobre escritorio
+</DesktopTool>
+
+
+<Dialog>
+No mostrar este diálogo
+Búsqueda de {0}...
+Renombrar la carpeta actual
+</Dialog>
+
+
+<DialogAppLauncher>
+¿Está seguro que desea quitar &quot;{0}&quot;?
+Quitar elemento del Lanzador de Aplicaciones
+</DialogAppLauncher>
+
+
+<DialogButtons>
+&amp;Aceptar
+&amp;Cancelar
+A&amp;plicar
+Por &amp;defecto
+&amp;Sí
+&amp;No
+&amp;Reintentar
+C&amp;errar
+&amp;Limpiar
+Ac&amp;tualizar
+Dete&amp;ner
+Dia&amp;gnóstico
+A&amp;rriba
+A&amp;bajo
+&amp;Reemplazar
+&amp;Deshacer
+&amp;Editar
+&amp;Clonar
+</DialogButtons>
+
+
+<DialogCopyMove>
+Copiar: 
+Mover: 
+Crear accesos directos: 
+No se han encontrado pestañas de destino.
+Seleccionar los archivos y carpetas para copiar a &apos;{0}&apos;
+Seleccionar los archivos y carpetas para mover a &apos;{0}&apos;
+Seleccionar los archivos y carpetas para crear accesos directos en &apos;{0}&apos;
+Seleccionar &amp;todos los destinos
+Carpetas de destino
+&amp;Realizar
+Vista - pequeña
+Vista - grande
+Copiar estructura de carpeta a la pestaña:
+</DialogCopyMove>
+
+
+<DialogError>
+Error
+QTTabBar ha fallado al navegar a:\r\n\r\n{0}.
+No se encontró el destino de {0}.
+{0} no se encontró.
+Nombre de grupo desconocido:
+Se encontraron grupos con integrantes no válidos:
+Los siguientes grupos están vacíos o no contienen integrantes válidos:
+Los siguientes archivos de grupo están vacíos o no contienen un nombre de grupo válido:
+Archivo vacío.
+Error de I/O.
+Acceso no autorizado.
+Por favor, asegúrese de que QTTabBar está habilitado.
+No volver a mostrar este diálogo para este error
+Archivo de imagen no válido.\r\n\r\nPor favor especifique un archivo de 432 × 40 o 480 × 40 píxeles.
+La aplicación tiene argumentos o directorio de trabajo que contienen atajos de teclado, pero QTTabBar falló al reemplazarlos.
+Barra de Comandos tardó {0} segundos en crear los botones.\r\nExiste la posibilidad de elementos no válidos o elementos en alguna red lenta.
+Este elemento no puede añadirse a este barra.
+La operación falló con el siguiente error:
+Vista Extra no puede mostrar el elemento del Panel de Control &quot;{0}&quot;.
+¿Desea abrir la bandeja de disco?
+Esto puede deberse a que la ventana del Explorador ha sido abierta con /interruptor raíz
+</DialogError>
+
+
+<DialogFileHashComputer>
+Completar
+Abortado.
+Hash de computación {0}/{1}
+Datos establecidos con éxito en el portapapeles.
+Ruta de acceso
+Hash
+&amp;Opciones
+Ruta de acceso completa
+Limpiar al cerrar
+Siempre encima
+(Calculando ahora...)
+Error al abrir el archivo.
+Cancelado.
+Espera...
+Opacidad
+</DialogFileHashComputer>
+
+
+<DialogFileRenamer>
+Renombrar
+Carpeta actual: 
+&amp;Buscar:
+&amp;Reemplazar con:
+Opciones
+Ámbito de aplicación
+&amp;Distingue mayúsculas y minúsculas
+Expresiones &amp;regulares
+Incluir &amp;subcarpetas
+&amp;Profundidad
+&amp;Todos en la carpeta
+&amp;Elementos seleccionados
+Objetivo
+Archivos y carpetas
+Carpetas
+Archivos
+Colisión
+&amp;Confirmar
+&amp;Automático
+Man&amp;tener el más reciente
+Especifica la profundidad máxima de las subcarpetas. Escoja 1 para incluir solo subordinados directos. Sin límite si es 0.
+Buscando...
+Procesando...
+{0} artículos renombrados con éxito.
+Aciertos {0}, elementos fallados {1}
+^\tInicio del nombre del archivo
+$\tFinal del nombre del archivo
+.\tCualquier carácter individual
+[]\tCualquier carácter individual del grupo de caracteres
+[^]\Cualquier carácter individual que no esté en el grupo de caracteres
+\s\tEspacio en blanco
+\d\tDígito decimal
+*\tCero o más veces
++\tUno o más veces
+?\tCero o una vez
+{n,m}\tn - m veces
+*?\tCero o más veces (menor conformidad)
++?\tUna o más veces (menor conformidad)
+??\tCero o una vez (menor conformidad)
+{n,m}?\tn - m veces (menor conformidad)
+()\tAgrupando
+|\to
+$1\tGrupo capturado 1
+$2\tGrupo capturado 2
+$3\tGrupo capturado 3
+$n\tGrupo capturado n
+$&amp;\tCoincidencia completa
+$_\tNombre completo del archivo
+$`\tParte del nombre del archivo antes de coincidir
+$`\tParte del nombre del archivo después de coincidir
+$+\tÚltimo grupo capturado
+$$\t&quot;$&quot; literal
+Números se&amp;cuenciales
+I&amp;nicio
+Incremen&amp;to
+&amp;Reinicio en subcarpeta
+?\tNúmero secuencial
+??\tNúmero secuencial con al menos dos dígitos
+???\tNúmero secuencial con al menos tres dígitos y así sucesivamente
+Expresión regular no válida.
+Nombre original
+Nuevo nombre
+Carpeta
+Fecha de modificación
+Fecha de creación
+Tamaño
+Tipo
+Renombrar
+Archivo
+Opciones
+Sigue la navegación de la ventana de la carpeta
+Siempre arriba
+Abrir la carpeta...
+Cerrar
+Ajustes preestablecidos
+Cambiar extensiones por lote - abc -&gt; xyz
+Cambiar extensiones por lote - TODO -&gt; xyz
+Recolocar
+Lista
+Filtro:
+Lista de nombres:
+Conservar extensiones originales
+Nombre de archivo no válido.
+$x\tExtensión de archivo
+$x\tNombre de archivo sin extensión
+Renombrar este elemento
+${label}\tGrupo denominado
+$[m-n]\t n-th grupo en m-th coincidencia
+(?&lt;label&gt;)\tAgrupación denominada
+$L[...]\tConvertir a minúsculas
+$U[...]\tConvertir a mayúsculas
+$I[...]\tMayúscula en la primera letra de una palabra
+Actualizar
+A minúsculas
+A mayúsculas
+Mayúscula en la primera letra de una palabra
+</DialogFileRenamer>
+
+
+<DialogGroup>
+Crear nuevo grupo
+Nombre del Grupo:
+Añadir todas las pestañas
+¿Está seguro que desea quitar el grupo &quot;{0}&quot;?
+Quitar grupo
+¿Está seguro que desea quitar un integrante &quot;{0}&quot;?
+Quitar un integrante del grupo
+Crear un archivo de grupo
+Archivo de grupo QTTabBar
+{0} ya existe.\r\n\r\n¿Quiere añadir (Sí), o reemplazar (No)?
+</DialogGroup>
+
+
+<DialogKeyFinder>
+[Grupo]
+[Aplicaciones]
+[Plugin]
+Teclas
+Acción
+Género
+Buscador de atajos de teclado
+{0} tecla[[|s]].
+[Botón de comando]
+</DialogKeyFinder>
+
+
+<DialogLibrary>
+Crear nueva biblioteca
+Nombre de la biblioteca:
+Añadir todas las pestañas
+</DialogLibrary>
+
+
+<DialogVersatileBar>
+¿Está seguro que desea quitar el elemento &quot;{0}&quot;?
+Quitar elemento de la Barra de Comandos
+Editar etiqueta
+</DialogVersatileBar>
+
+
+<DropHelper>
+Copiar
+Mover
+Añadir al menú de Aplicaciones
+</DropHelper>
+
+
+<Global>
+{0} elemento[[|s]]
+Abrir en el &amp;sitio 
+Abrir en la pestaña &amp;activa
+Abrir en una nueva &amp;pestaña
+Abrir en otra &amp;vista
+</Global>
+
+
+<GlobalMenu>
+Barras de &amp;herramientas
+&amp;Bloquear las barras de herramientas
+&amp;Ocultar automáticamente las barras de herramientas
+&amp;Ocultar automáticamente la barra de herramientas
+Buscador de &amp;atajos de teclado...
+Opciones de &amp;carpeta...
+Opciones de &amp;QTTabBar...
+&amp;Personalizar la barra de botones...
+&amp;Ramas
+&amp;Añadir al menú de la aplicación: 
+&amp;Cancelar
+Crear un archivo de &amp;grupo...
+Abrir nueva &amp;ventana
+&amp;Quitar
+&amp;Quitar este elemento del menú
+&amp;Abrir carpeta contenedora
+Esta carpeta está vacía.
+Crear grupo para pestaña activa
+Crear grupo para todas las pestañas
+Crear nuevo grupo...
+Administrar grupos...
+Cor&amp;tar
+&amp;Copiar
+&amp;Pegar
+Pegar &amp;acceso directo
+&amp;Eliminar
+&amp;Renombrar
+&amp;Propiedades
+Establecer &amp;Icono...
+&amp;Restablecer Icono
+Abrir y &amp;cerrar otras pestañas
+&amp;Ayuda
+Abir en vista extra (&amp;abajo)
+Abrir en vista extra (&amp;izquierda)
+Abrir en vista por &amp;defecto
+</GlobalMenu>
+
+
+<GlobalTokens>
+Archivos seleccionados (comillas dobles, separados por un espacio si son varios)
+Archivos seleccionados (sin comillas si es un solo archivo)
+Carpetas seleccionadas (comillas dobles, separadas por un espacio si son varias)
+Carpetas seleccionadas (sin comillas si es una sola carpeta)
+Archivos y carpetas seleccionados (comillas dobles, separadas por un espacio si son varios)
+Archivos y carpetas seleccionados (sin comillas si es un único elemento)
+Carpeta actual (comillas dobles si contiene espacios)
+Carpeta actual (sin comillas)
+Carpeta única, o carpeta actual seleccionada (comillas dobles si contiene espacios)
+Carpeta única, o carpeta actual seleccionada (sin comillas)
+Nombre de un único elemento seleccionado (sin comillas)
+Pestaña (origen del evento)
+Cadena de ruta de la pestaña (origen del evento)
+</GlobalTokens>
+
+
+<GlobalToolbar>
+Barra de menús
+Barra de estado
+Barra de pestañas
+Barra de pestañas (abajo)
+Barra de comandos 1
+Barra de comandos 2
+Barra de comandos (vertical)
+Vista extra (abajo)
+Vista extra (izquierda)
+</GlobalToolbar>
+
+
+<GlobalTooltip>
+Muestra u oculta la barra de herramientas.
+Bloquea los tamaños y posiciones de las barras de herramientas.
+Cambia el modo de ocultación automática de las barras de herramientas.\r\n
+Cambia el modo de ocultación automática de esta barra de herramientas.
+Abre la ventana del buscador que muestra la lista de los atajos de teclado asignados.
+Muestra las opciones de carpeta del explorador.
+Abre la ventana de opciones de QTTabBar.
+Otros sitios por donde pasó esta pestaña.
+Crea un nuevo grupo y añade la pestaña activa como integrante.
+Crea un nuevo grupo y añade todas las pestañas a él.
+Elige carpeta para crear un grupo.
+Abre la ventana de opciones para gestionar los detalles del grupo.
+Sincroniza vistas.
+Sincroniza desplazamiento.
+Sincroniza navegación.
+Busque una carpeta.
+</GlobalTooltip>
+
+
+<GroupOpener>
+Archivo de grupo de QTTabBar
+Grupos: 
+Este archivo de grupo está vacío.
+Crear un archivo de grupo
+</GroupOpener>
+
+
+<IEWarning>
+QTTabBar no funciona con Internet Explorer. \r\nSi se ha deshabilitado el Add-On, deja de funcionar también en el sistema. \r\nEn ese caso habilite QTTabBar y otras barras de herramientas en Opciones de Internet.
+</IEWarning>
+
+
+<NotifyIcon>
+Restaura todas las ventanas
+Cierra todo
+ ventana [[|s]]
+</NotifyIcon>
+
+
+<Option>
+Opciones de QTTabBar
+Nada
+Por defecto
+{0} no es accesible. ¿Desea continuar?
+Ruta inaccesible
+Restaurar valores predeterminados de esta página
+Elegir color...
+Seleccionar icono...
+Quitar icono
+{Izquierda, Arriba, Derecha, Abajo} =
+</Option>
+
+
+<OptionAppearance>
+Tamaño de la pestaña
+Anchura
+Altura
+Máxima
+Mínima
+Fija
+Texto del título de la pestaña
+Elegir fuente...
+Alineación del texto
+Color del texto
+Activo
+Inactivo
+Sombra del texto
+Negrita en pestaña activa
+Desplazamiento del texto (X,Y)
+Representación de fondo de pestaña y texto
+Modo de representación de la pestaña
+Automática
+Límitada
+Alineado a la izquierda
+Centrado
+Estilo visual Windows
+Imagen de piel
+Estilo clásico
+Ruta de la imagen:
+Color del resaltado
+Elegir color...
+Barra de herramientas
+Color de fondo de la barra de herramientas
+Color de fondo de la barra del explorador (izquierda)
+Color de fondo de la barra del explorador (abajo)
+Imagen de fondo de la  barra de herramientas
+Disposición de la imagen
+Menú
+Estilo de menú, tipo
+Opacidad del menú
+Número máximo de caracteres en el menú
+Mostrar tecla de método abreviado
+Tipo loseta
+A tamaño real
+Alargada
+Alargada en cada banda
+Windows 7
+XP
+Por defecto
+Windows 8
+&amp;Descargar imagen de piel...
+Relleno (izquierda, derecha)
+Pestaña
+Imagen de pestaña
+Barra de herramientas y menú
+Botón cerrar en pestaña
+Ruta de la imagen:
+Desplazamiento del botón (X,Y)
+Panel de navegación
+Color fondo
+Color del texto
+Icono de bloqueo de pestaña
+Ruta de la imagen:
+Desplazamiento del icono de bloqueo (X,Y)
+Estilo de fuente de la pestaña activa
+Negrita
+Cursiva
+Tachada
+Subrayada
+Icono de pestaña
+Desplazamiento del icono de pestaña (X,Y)
+Windows 10
+</OptionAppearance>
+
+
+<OptionAppLauncher>
+Add carpeta
+Add elemento
+Eliminar
+Add separador
+Ruta de acceso:
+Argumentos:
+Carpeta de trabajo:
+Atajos de teclado
+Las siguientes palabras claves son reemplazadas por la cadena de ruta entre comillas dobles en tiempo de ejecución.
+Archivos seleccionados
+Carpetas seleccionadas
+Carpetas y archivo seleccionados
+Carpeta actual
+Carpeta actual sin ninguna selección, de lo contrario selecciona carpeta
+</OptionAppLauncher>
+
+
+<OptionCommandBar>
+Puede añadir o quitar elementos arrastrando hacia o desde las Barras de Comandos.
+Plugins
+Tabla de comandos
+Conservar en la tabla los botones arrastrados y soltados
+Archivo de imagen para los comandos básicos:
+</OptionCommandBar>
+
+
+<OptionDesktopTool>
+Para habilitar la &quot;Herramienta de Escritorio&quot;, mostrar el menú contextual en la barra de tareas y seleccionar &quot;Barra de herramientas&quot; &gt;&gt;&gt; &quot;QT Tab Desktop Tool&quot;.
+Aplicar imagen de piel a los títulos del menú de la herramienta de escritorio
+Ruta de la imagen:
+&amp;Descargar imagen de piel...
+Abrir ventana en la pantalla de trabajo
+Mover ventana de captura a la pantalla de trabajo
+No capturar ventanas que hayan sido abiertas por la Herramienta de Escritorio
+</OptionDesktopTool>
+
+
+<OptionEvent>
+Se puede vincular comandos para determinados eventos que se activarán al hacer clic en la pestaña, en la barra de pestañas y en la vista de carpeta.
+Se puede vincular comandos para vista y ventana de eventos.
+Interactivo
+Otros eventos
+Pestaña y barra de pestañas
+Vista de carpeta
+Panel de navegación (árbol de carpetas)
+Barra de direcciones
+Botón de comando predeterminado
+Ventana y barra de tareas
+Menú de grupo
+Navegación completa
+Error de navegación
+Se abre ventana
+La ventana está a punto de ser cerrada
+Menú de subcarpeta
+Incluir además elementos seleccionados
+Crear un comando nuevo...
+Cambiar pestaña activa
+Editar el comando actualmente vinculado...
+</OptionEvent>
+
+
+<OptionEventActions>
+Cerrar
+Subir un nivel
+Bloquear
+Mostrar el menú
+Nueva ventana
+Clonar
+Copiar ruta
+Propiedades
+Mostrar el menú de subcarpeta
+Copiar los archivos seleccionados a la pestaña
+Mover los archivos seleccionados a la pestaña
+Crear vínculos de los archivos seleccionados en la pestaña
+Mover la pestaña a la vista extra (abajo)
+Mover la pestaña a la vista extra (izquierda)
+Mover la pestaña a otra vista
+Buscar carpeta y abrir nueva pestaña
+Cerrar todo menos la pestaña activa
+Cerrar todo
+Restaurar última cerrada
+Abrir opciones de QTTabBar
+Cerrar ventana
+Clonar pestaña activa
+Activar la pestaña más recientemente activada
+Abrir nueva pestaña
+Abrir nueva pestaña en segundo plano
+Navegar en la pestaña activa
+Abrir nueva pestaña en vista extra (abajo)
+Abrir nueva pestaña en segundo plano en vista extra (abajo)
+Navegar en la pestaña activa de vista extra (abajo)
+Abrir nueva pestaña en vista extra (izquierda)
+Abrir nueva pestaña en segundo plano en vista extra (izquierda)
+Navegar en la pestaña activa de vista extra (izquierda)
+Abrir nueva pestaña en otra vista
+Abrir nueva pestaña en segundo plano en otra vista
+Navegar en la pestaña activa de otra vista
+Abrir nueva pestaña en una vista prioritaria
+Abierta nueva pestaña en segundo plano en una vista prioritaria
+Navegar en la pestaña activa de una vista prioriraia
+Copiar
+Cortar
+Editar
+Cerrar pestaña
+Enviar a la bandeja de tareas
+Por defecto
+Abrir en segundo plano
+Reemplazar
+Reemplazar en vista extra (abajo)
+Reemplazar en vista extra (izquierda)
+Reemplazar en otra vista
+Pegar a
+Comando de usuario
+Enviar la carpeta al portapapeles como copiada
+Enviar la carpeta al portapapeles como cortada
+Pegar en la carpeta desde el portapapeles
+Eliminar la carpeta
+Eliminar la carpeta permanentemente
+Empezar a renombrar
+Pasar el clic a segundo plano
+Buscar carpeta y abrir nueva pestaña en segundo plano
+Abrir escritorio
+Abrir pestaña predeterminada
+</OptionEventActions>
+
+
+<OptionEventSource>
+Hacer clic en la pestaña
+Hacer doble clic en la pestaña activa
+Hacer clic con botón central en la pestaña
+Hacer clic en la pestaña
+Hacer doble clic en la barra de herramientas
+Hacer clic con botón central en la barra de herramientas
+Hacer clic derecho en la barra de herramientas
+Hacer clic en panel de exploración
+Hacer clic con botón central en panel de exploración
+Teclear Entrar en el panel de navegación
+Hacer clic en breadcrums
+Hacer clic con botón central en breadcrumbs
+Hacer clic en el botón de la barra de comandos
+Hacer clic con botón central en el botón de la barra de comandos
+Hacer clic en botón cerrar de la ventana
+Hacer clic en botón cerrar de la ventana en la Jump List
+Hacer clic en el elemento de menú de grupo
+Hacer clic con botón central en el elemento de menú de grupo
+Hacer doble clic en el icono de carpeta
+Hacer clic con botón central en el icono de carpeta
+Hacer doble clic en la vista de carpeta
+Hacer clic con botón central en la vista de carpeta
+Hacer clic en el elemento de menú de subcarpeta
+Hacer clic con botón central en el elemento de menú de subcarpeta
+Teclear Entrar en los iconos de carpeta
+Clic en botón &quot;+&quot; de barra de pestañas
+</OptionEventSource>
+
+
+<OptionExtraView>
+Vista extra (abajo)
+Vista extra (izquierda)
+Dar prioridad a...
+Mostrar panel de detalles
+Mostrar cinta de carpeta
+Utilice pestañas
+Restaurar siempre las pestañas al iniciar
+Barra de direcciones
+Botones de navegación
+Arriba
+Abajo
+Izquierda
+Derecha
+Enfocar otra vista con la tecla Tab
+Ocultar cuando se cierran todas las pestañas
+Pestaña abierta por defecto:
+Redimensionar automáticamente las vistas extras
+Abrir cuando se cierre la última pestaña
+Buscar en la carpeta mediante la caja de filtro, en lugar de filtrar
+</OptionExtraView>
+
+
+<OptionFolderView>
+Subir un nivel con la tecla retoceso [BackSpace]
+Bucle del cursor
+Al renombrar archivos, cambiar selección presionando F2
+Desplazamiento horizontal con Mayús + Rueda
+Desplazamiento por vista de carpeta sin enfocar
+Desplazamiento por vista de árbol sin enfocar
+Mostrar nombre de archivos en vista de detalles aunque estén incompletos.
+Clic central en icono de carpeta en vista de carpeta
+Doble clic en la vista de carpeta
+Clic central en la vista de carpeta
+Estilo compatible de la vista de lista
+No seleccionar fila completa
+Mostrar siempre encabezado de columnas
+Mostrar marcas de agua para carpetas personalizadas
+Fijar el ancho de la columna de vista de Lista en
+Color de filas impares en detalles
+Color de filas pares en detalles
+Elegir el color de fondo...
+Elegir el color de texto...
+Nueva pestaña
+Nueva ventana
+Copia
+Corta
+Propiedades
+Sube un nivel
+Busca carpeta y abre en pestaña
+Clona
+Copia la ruta de la carpeta actual
+Copia el nombre de la carpeta actual
+Cierra la ventana
+Cierra la pestaña activa
+Selecciona todo
+Invierte selección
+Crea una nueva carpeta
+Crea un nuevo archivo de texto
+Cuadro de diálogo &apos;Copia de la carpeta&apos;
+Cuadro de diálogo &apos;Mover de la carpeta&apos;
+Cuadro de diálogo &apos;Crear accesos directos de la carpeta&apos;
+Pega
+Colores personalizados en vista compatible
+Añadir comando &apos;Establecer texto y color de fondo&apos; en el menú de contexto del sistema
+Sobrescribir colores de compresión y encriptación de NTFS
+Ruta de acceso, Extensión y Expresión Regular
+Condiciones
+Ruta de acceso, Nombre, Extensión (.ext) o Expresión Regular (/ regularexpression/i) para añadir:
+Añadir
+Actualizar
+Cambiar color de texto
+Imagen de fondo
+Tipo
+Línea
+Vista
+Asunto
+Impar
+Par
+Ruta de acceso
+Nombre
+Ubicación
+Ventana de carpeta
+Escritorio
+Aplicar rayas por defecto
+(no especificado)
+Ayudante de soltar
+Utilizar Ayudante de soltar en las ventanas de carpetas
+Utilizar Ayudante de soltar en escritorio (se requiere Herramienta de Escritorio)
+Para las carpetas
+Para los enlaces a la carpeta
+Color base del fondo (Disponible en vista compatible para Windows 8.x y 10)
+Seleccionar color de fondo de la columna en vista Detalles
+Pintar con colores personalizados
+Menú Subcarpeta
+Colores preestablecidos...
+Archivos ejecutables
+Atención, caracteres de control Unicode
+General
+Ver colores personalizados
+Menú de contexto del Explorador
+Comandos de QTTabBar
+Agregar al menú de contexto de la carpeta / archivo
+Agregar al menú de contexto de la carpeta en segundo plano
+Verbos de carpeta (Folder verbs)
+Son necesarios para la captura de ventanas.
+Agregar comandos tal como &quot;Abrir en una pestaña nueva&quot; al menú contextual de carpeta
+Renombrar pista si así lo especifica la ruta
+Activo
+Inactivo
+Color del texto base (Disponible en vista de compatibilidad en Windows 8.x y 10)
+Marca de agua
+Tipo de carpeta
+Color de borde de la vista (Windows 8.x, 10)
+Mejorada la búsqueda incremental en vista
+Hacer coincidir el centro del nombre del archivo no sólo el principio
+Sesión fuera de tiempo (milisegundos)
+Esta opción conocida como búsqueda incremental permite teclas de acceso rápido más útiles. Un plugin que implementa la interfaz IFilter recibe caracteres y puede modificar el resultado de la selección.
+Utilizar un plugin que implementa la interfaz IFilter, si está instalado.
+Mezclar con colores personalizados
+Coincidencia parcial
+Archivos de acceso directo
+Utilizar rectángulo de foco original
+Sincronizar con color de énfasis
+Color del sistema...
+Elegir color del sistema
+Color de énfasis
+Color de escritorio
+Luminosidad
+Color de texto dinámico
+Color de fondo dinámico
+</OptionFolderView>
+
+
+<OptionGeneral>
+Mostrar información de herramientas
+Mostrar información detallada de herramientas
+Mostrar información del comando en la barra de estado
+Capturar botones X1/X2 para ir atrás/adelante
+Intercambiar botones X1 y X2
+Botones de navegación en la barra de pestañas
+Archivo de idioma:
+A la derecha
+A la izquierda
+Descargar archivo de idioma...
+Crear archivo de idioma...
+Actualización
+Preguntar cuando se encuentran actualizaciones
+Ignorar las versiones beta
+Descargar actualización ahora...
+Administración de ajustes
+Red
+Tiempo de espera de red, en segundos
+Reintentar acceder una vez transcurrido el tiempo de espera
+</OptionGeneral>
+
+
+<OptionGenre>
+General
+Historial
+Pestaña
+Ventana
+Barras de herramientas
+Eventos
+Arrastrar y soltar
+Vista de carpeta
+Vista de carpeta compatible
+Vistas extras
+Aspecto
+Grupos
+Lanzador de aplicaciones
+Botones de comando
+Plugins
+Atajos de teclado
+Vista previa
+Menú de subcarpeta
+Herramienta de escritorio
+Sonidos
+Misc.
+</OptionGenre>
+
+
+<OptionGroup>
+Add sitios...
+Nuevo grupo
+Eliminar
+Add separador
+Grupo de inicio
+Atajo de teclado de grupo seleccionado:
+Cerrar todas las pestañas al abrir grupo
+Anteponer los comandos de administración al menú de grupo
+Anteponer los comandos de administración al menú de contexto del menú de grupo
+Mostrar subelementos en el menú desplegable
+Mostrar submenú de carpeta para subelementos
+Identificar los Grupos de Inicio mediante:
+Insertar los Grupos de Inicio a:
+Subrayado
+Cursiva 
+La derecha
+La izquierda
+Bloquear
+Color del grupo seleccionado
+Cómo indicar color de pestaña de grupo:
+Nube
+Relleno
+Triángulo (derecha)
+Triángulo (izquierda)
+Aplicar colores de grupo a los menús
+Editar
+Opciones
+</OptionGroup>
+
+
+<OptionHistory>
+Pestañas recientes
+Máximo número de elementos a guardar
+Añadir al historial cuando:
+Limpiar al desconectar
+Archivos recientes
+Guardar historial del menú de aplicaciones
+Guardar argumentos del menú de aplicaciones 
+Guardar por separado los archivos EXE
+Cierre pestaña
+Abra pestaña
+Navegue
+Abra  pestaña y navegue
+Permitir duplicación
+Organizar por orden alfabético
+</OptionHistory>
+
+
+<OptionKeyShortcuts>
+Enviar al portapapeles
+Colapsar todo
+Acción
+Teclas
+QTTabBar - Pestaña y Navegación
+QTTabBar - Ventana y Barra de Herramientas
+QTTabBar - Menú
+QTTabBar - Edición
+QTTabBar - Vista Previa
+QTTabBar - Varios
+Plugin
+Permitir atajos de teclado sin teclas modificadoras (Ctrl, Mayús, Alt)
+&quot;{0}&quot; ya está asignada para &quot;{1}&quot;.\r\n\r\n¿Desea reasignar?
+Confirmación de reasignación
+Pasar a través de (Pass-through)
+Las teclas por defecto de los elementos marcados con * se pueden configurar para pasar a través de Mayús + Esc.
+QTTabBar - Vista de carpeta
+QTTabBar - Vistas extra y sincronización
+QTTabBar - Enfoque
+</OptionKeyShortcuts>
+
+
+<OptionMiscs>
+Exportar ajustes periódicamente
+Intervalo (días)
+Directorio
+Exportar ahora la configuración...
+Restaurar ajustes predeterminados...
+Barra de tareas (TaskBar)
+Botón independiente representando este cuadro de opciones
+Botón independiente representando el hash de la ventana del PC
+Donación
+Reiniciar diálogos de error deshabilitados
+Esto restaura la configuración predeterminada.\r\n\r\n&apos;Sí&apos;, remueve todos los cambios incluyendo Grupos y Aplicaciones registradas, y desinstala todos los Plugins.\r\n\r\n&apos;No&apos;, restaura los valores de las casillas de verificación y cuadros combinados, pero se conservan Grupos, Aplicaciones y Plugins.\r\n\r\nEstos cambios no surtirán efecto hasta que pulse el botón Aceptar o Aplicar.
+Limpiar ajustes
+Reportar Peticiones &amp;&amp; Fallos
+Importar ahora...
+Eliminar historial de Autocompletar
+Reconstruir cache iconos del Explorador
+Limpiar configuración de tamaño de ventana, posición y vista
+Guardar posiciones de iconos de escritorio...
+Restaurar las posiciones de iconos del escritorio...
+Eliminar los usados más recientemente [MRUs]
+Ejecutar en el menú Inicio
+Teclear rutas en la barra de direcciones
+Sugerencias de búsqueda
+Artículos recientes en el menú Inicio
+Programas abiertos recientemente en el menú Inicio
+Explorador
+Secuencias de comandos
+Vista de destino por defecto si no se especifica
+Enfocada
+Predeterminada
+Ocultar ventana transparente de diferentes procesos para prevenir la interacción entre la vista de carpeta y el cursor (no recomendado)
+</OptionMiscs>
+
+
+<OptionPlugin>
+Añadir plugin
+Opción
+Desactivar
+Activar
+Desinstalar
+Acerca de {0}
+También se desinstalan estos plugins:\r\n\r\n{0}\r\n\r\nPulse Aceptar para desinstalar todo.
+</OptionPlugin>
+
+
+<OptionPreview>
+Mostrar vista previa de información para texto, imagen y archivos multimedia
+Mostrar la información del archivo debajo de la miniatura
+Habilitar para archivos de red
+Habilitar archivos en las carpetas comprimidas
+Mostrar sólo con la tecla Mayús presionada
+Desplegar incluso si no está activa la ventana de la carpeta
+Intentar obtener miniatura EXIF (más rápido pero de menor calidad)
+Guardar puntos de reproducción de películas y música
+Mostrar en la esquina de la pantalla
+Tratar de mostrar a tamaño completo
+Tamaño de la ventana de vista previa
+Máxima anchura/altura de la imagen
+Máxima  anchura/altura de la película
+Máxima anchura/altura del texto
+Leer el máximo texto en KiB
+Fuente vista previa de texto
+Elegir fuente...
+Extensiones de los archivos
+Imagen
+Película &amp; Música
+Texto
+Añadir
+Eliminar
+Opacidad de la ventana de la vista previa
+Tamaño máximo de memoria para la caché de imágenes, en MiB
+Limpiar la caché...
+Volumen del sonido
+Primera demora para mostrar vista previa, en ms
+Pantalla completa
+Monitor de pantalla completa
+Fijar monitor:
+Monitor actual
+Siguiente
+Anterior
+Fijo
+Intentar mostrar en tamaño máximo especificado
+Color del texto
+Color de fondo
+Etiqueta de texto informativo
+Auto Ocultar
+Siempre visible
+Usar aceleración de hardware, si está disponible
+Presentación de diapositivas a pantalla completa. Duración de la imagen, en milisegundos:
+Vista previa a pantalla completa mediante tecla de acceso rápido (Teclado numérico &apos;.&apos; por defecto)
+General
+Extensiones, fuentes y colores
+Ventanas
+No utilizar aceleración por hardware para archivos H.264 en monitores secundarios (solución para congelación)
+</OptionPreview>
+
+
+<OptionSearchOpt>
+Resultados de búsqueda
+Género
+Éxito
+</OptionSearchOpt>
+
+
+<OptionSound>
+Reproducir sonidos en errores y diálogos
+Sonidos al navegar
+Especificar la ruta de acceso del archivo de sonido wav para las operaciones de archivos con atajos de teclado.
+Emitir un sonido al copiar
+Emitir un sonido al cortar
+Emitir un sonido al pegar
+Emitir un sonido al eliminar
+Siempre con sonido
+Sonido en el sitio de la navegación
+Sin sonidos
+Reproducir en Sistema Audio Sesión
+</OptionSound>
+
+
+<OptionSubFolderMenu>
+Habilitar el menú de la Subcarpeta
+Mostrar no sólo carpetas sino también archivos
+Mostrar elementos que tienen atributos ocultos
+Mostrar elementos que tienen atributos de sistema
+Mostrar vista previa de información de herramientas
+Mostrar sólo con la tecla Mayús presionada
+Mostrar incluso si no está activa la ventana de la carpeta
+Expandir los elementos del grupo al menú raíz para archivos .QTGroup
+Mostrar el menú de la carpeta bajo el cursor al arrastrar archivos y carpetas
+Activar el menú para la carpeta comprimida
+Mientras se despliega el menú, mostrar imagen:
+En las bibliotecas, ordenar los elementos por carpeta
+Habilitar para los elementos de la barra versátil
+Habilitar para los elementos de la barra versátil (vertical)
+Opacidad del menú
+Retardo en ms, antes de desplegar el menú durante el arrastre
+Retardo en ms, antes de desplegar el menú
+Ordenar elementos por:
+Extensión
+Nombre
+Fecha de modificación
+Fecha de modificación (inversa)
+Utilizar ajustes de color personalizados
+</OptionSubFolderMenu>
+
+
+<OptionTab>
+Ubicación de la nueva pestaña:
+Una vez cerrada la pestaña actual, activar:
+Múltiples filas
+Al pasar sobre una pestaña durante el arrastre,
+Acción de soltar por defecto
+Al soltar pestaña en otra pestaña
+Cuando una pestaña es fuente, la pestaña no es destino para soltar 
+Cuando una pestaña es fuente, la barra no es destino para soltar
+Activar la nueva pestaña
+Duplicar pestaña si no se presiona la tecla Ctrl
+Permitir la duplicación al soltar
+Mostrar número de pestaña
+Renombrar automáticamente pestañas ambiguas
+Quitar la pestaña origen al abrirla en una nueva ventana
+Cambiar pestaña activa con la rueda del ratón
+Animación de pestaña
+Sobreposición en ms durante el arrastre, antes de activarse 
+Factor de animación (cuanto más grande más rápido)
+La última a la derecha
+La primera a la izquierda
+A la derecha
+A la izquierda
+La última pestaña activada
+Pestaña activa en la fila inferior
+Múltiples filas
+Fila única
+Mostrar el menú de la subcarpeta
+Activar
+Predeterminado del sistema
+Copiar
+Mover
+Crear enlace
+Mostrar en las pestañas el botón cerrar
+Con la tecla Alt presionada
+Al sobreponer el ratón
+Mostrar el icono de la pestaña
+Mostrar &apos;submenú de carpeta&apos; al hacer clic en el icono de la pestaña
+Extender el área de icono de la pestaña para mostrar el menú al hacer clic
+Indicar la letra de la unidad
+Comportamiento de la pestaña bloqueada
+Evita que otra pestaña sea activada
+Evita la navegación en el sitio
+Evita que la ventana se cierre
+Mostrar conmutador de pestañas mediante Ctrl+Tab
+Mostrar conmutador de pestañas en estilo Aero
+Voltear horizontalmente barra de pestañas
+Al arrastrar una pestaña
+Copiar, mover o crear acceso directo
+Crear una nueva ventana
+Permitir soltar al lado en la Barra de Pestañas
+Al soltar pestaña en la Barra de Pestañas
+Permitir la pestaña en la Barra de Pestañas
+Número de elementos mostrados en el selector de pestañas
+Comportamiento predeterminado (invertir con tecla Alt)
+Cerrar pestaña al fallar la navegación
+General
+Botón cerrar, icono, bloqueo
+Cambiar de pestaña activa con la rueda del ratón con clic derecho sobre las vistas
+Añadir botón &quot;+&quot; en Barra de Pestañas
+</OptionTab>
+
+
+<OptionToolbar>
+Ocultar automáticamente las barras de herramientas
+Expandir cuando las pestañas cambien
+Expandir mientras la ventana está maximizada
+No mostrar automáticamente por posición del cursor del ratón
+Demora en ms, para ocultar automáticamente
+Demora en ms, para mostrar automáticamente
+Colocar la barra horizontal del explorador debajo de la barra vertical del explorador.
+Cuando la barra tiene solamente una pestaña
+Dar prioridad a...
+Sincronizar la posición horizontal de la barra de pestañas (superior) con la vista predeterminada cuando la vista extra está habilitada a la izquierda.
+</OptionToolbar>
+
+
+<OptionTooltip>
+Ir a la página web: http://qttabbar.wikidot.com/
+Ctrl + Arriba
+Ctrl + Abajo
+Establecer el grupo seleccionado como grupo de inicio.
+Crear archivo de Grupo para el elemento seleccionado.\r\nEl archivo de Grupo es un acceso directo al/los Grupo/s.
+Muestra un cuadro preguntando si se desea eliminar los ajustes.
+Utilizado cuando la anchura/altura es menor de 256pixels.
+Pueden ser cerrados con la tecla Mayús.
+0 sin límite.
+Seleccionar archivo
+Buscar carpeta
+Seleccionar los marcadores de posición
+Las teclas +/- del teclado numérico están disponibles durante la reproducción.
+Liberar memoria de la caché de imágenes.
+Utilizando la vista compatible con XP/Vista, se habilita la &apos;Organización automática&apos; y el &apos;Alinear a cuadrícula&apos; .
+Copia o mueve archivos y carpetas a la pestaña al arrastrar y soltar.
+Evita que se pueda arrastrar y soltar en la pestaña.
+Evita que se pueda arrastrar y soltar en la barra de herramientas.
+Intercambia el estado de bloqueo de la pestaña.
+Quitar el elemento seleccionado.
+Busque y seleccione archivos y carpetas.
+Especificar un archivo de imagen en el que el número de píxeles verticales sea múltiplo de 4.\r\nDebe contener, de arriba a abajo, las imágenes, normal, hot, presionada, tecla alt presionada.
+Elegir o crear un comando de ejecución.
+Mostrar la ayuda de esta página.
+</OptionTooltip>
+
+
+<OptionWindow>
+Capturar ventana
+Al minimizar, enviar la ventana a la bandeja de tareas
+No cambiar el tamaño de la ventana
+Guardar la transparencia de la ventana
+Guardar el estado de la ventana colocada encima de todas
+Ocultar la barra de menús
+Redimensionar la ventana cuando el número de filas haya cambiado
+Maximizar horizontalmente con doble clic en el borde izquierdo y derecho de la ventana
+Restaurar pestañas cuando se abre una nueva ventana
+Restaurar pestañas bloqueadas
+Sólo para la primera ventana
+Abrir la carpeta especificada al cerrrar la última pestaña
+Evitar que se cierre la pestaña
+Abrir ventana en la pantalla de trabajo
+Mover la ventana capturada a la pantalla de trabajo
+Capturar ventanas mediante ShellExecuteHooks (para uso profesional, requiere inicio de sesión)
+Capturar Win + E 
+Cuando se abre una nueva ventana establecer el foco en:
+Panel de navegación (árbol de carpetas)
+Barra de direcciones
+Cuadro de búsqueda
+Pestaña activa
+Caja de filtros
+Captura
+Usted puede arrastrar carpetas o una pestaña para agregar a la lista de exclusión.
+Rutas de carpetas excluidas
+Captura por la que ver:
+Lista de captura y exclusión
+No capturar desde el escritorio
+Cuando la ventana de captura está en otro escritorio virtual:
+Abrir nueva ventana en el escritorio actual
+Cambiar al escritorio de captura
+Traer la ventana de captura al escritorio actual
+</OptionWindow>
+
+
+<ShellContextMenu>
+Comandos de QTTabBar
+Copiar a la pestaña...
+Mover a la pestaña...
+Enlace en una pestaña...
+Copiar a la carpeta...
+Mover a la carpeta...
+Crear enlace en carpeta...
+Copiar desde la carpeta...
+Mover desde la carpeta...
+Crear acceso directo de la carpeta...
+Copiar estructura de carpetas de pestaña...
+Renombrar extendido...
+Pegar en las carpetas seleccionadas
+</ShellContextMenu>
+
+
+<ShortcutKeyName>
+Atrás (Alt + Izquierda)
+Adelante (Alt + Derecha)
+Atrás al inicio
+Adelante al final
+Activar la pestaña siguiente
+Activar la pestaña anterior
+Activar la primera pestaña
+Activar la última pestaña
+Cerrar pestaña actual
+Cerrar todo menos la actual
+Cerrar a la izquierda
+Cerca de la derecha
+Cerrar ventana (Alt + F4)
+Deshacer cerrrar
+Clonar pestaña actual
+Abrir la carpeta actual en una nueva ventana
+Bloquear o desbloquear la actual
+Bloquear o desbloquear todo
+Buscar la carpeta y abrir en pestaña
+Crear nuevo grupo
+Abrir opciones de ventana
+Mostrar el menú de la barrra de pestañas
+Mostrar el menú de la pestaña actual
+Mostrar el menú del grupo (barra de botones)
+Mostrar el menú de la carpeta abierta recientemente (barra de botones)
+Mostrar el menú de las aplicaciones de usuario (barra de botones)
+Mostrar u ocultar la barra de menús
+Copiar la ruta de los archivos seleccionados
+Copiar el nombre de los archivos seleccionados
+Copiar la ruta de la carpeta actual
+Copiar el nombre de la carpeta actual
+Calcular hash de archivos seleccionados
+Calcular hash de los archivos seleccionados y copiar (sin ventana)
+Colocar la ventana encima de todas
+Transparencia +
+Transparencia-
+Enfocar en vista de carpeta
+Enfocar en barra de búsqueda
+Enfocar en árbol de carpetas
+Enfocar en barra de pestañas
+Enfocar en barra de comandos (vertical)
+Mostrar el menú de las subcarpetas en la carpeta seleccionada
+Tratar de mostrar la descripción previa del archivo seleccionado
+Enviar la ventana a la bandeja de tareas
+Eliminar archivos seleccionados (Supr)
+Eliminar permanentemente los archivos seleccionados (Mayús + Supr)
+Invertir selección
+Eliminar la carpeta actual
+Copiar la carpeta actual
+Cortar la carpeta actual
+Pegar acceso directo
+Crear una nueva carpeta
+Cree un nuevo archivo de texto
+Crear un archivo de acceso directo
+Abrir cuadro de diálogo &apos;Copiar a la carpeta&apos;
+Abrir cuadro de diálogo &apos;Mover a la carpeta&apos;
+Abrir cuadro de diálogo &apos;Copiar a la pestaña&apos;
+Abrir cuadro de diálogo &apos;Mover a la pestaña&apos;
+Abrir cuadro de diálogo &apos;Crear accesos directos en la pestaña&apos;
+Copiar los archivos seleccionados a la pestaña anterior
+Mover los archivos seleccionados a la pestaña anterior
+Crear accesos directos de los archivos seleccionados en la pestaña anterior
+Copiar los archivos seleccionados a la pestaña siguiente
+Mover los archivos seleccionados a la pestaña siguiente
+Crear accesos directos de los archivos seleccionados en la pestaña siguiente
+Abrir cuadro de diálogo &apos;Copiar de la carpeta&apos;
+Abrir cuadro de diálogo &apos;Mover de la carpeta&apos;
+Abrir cuadro de diálogo &apos;Crear accesos directos de la carpeta&apos;
+Abrir cuadro de diálogo &apos;Copiar de la pestaña anterior&apos;
+Abrir cuadro de diálogo &apos;Mover de la pestaña anterior&apos;
+Abrir cuadro de diálogo &apos;Crear accesos directos de los elementos en la pestaña anterior&apos;
+Abrir cuadro de diálogo &apos;Copiar de la pestaña siguiente&apos;
+Abrir cuadro de diálogo &apos;Mover de la pestaña siguiente&apos;
+Abrir cuadro de diálogo &apos;Crear accesos directos de elementos en la pestaña siguiente&apos;
+Mostrar u ocultar la barra de botones
+Mostrar u ocultar la barra de comandos
+Mostrar u ocultar la barra de comandos vertical
+Mostrar u ocultar la barra de estado
+Combinar todas las pestañas de todas las ventanas
+Crear nueva biblioteca
+Mostrar buscador de atajos de teclado
+Mostrar el menú del archivo abierto recientemente (barra de botones)
+Activar la última pestaña activada
+Crear una nueva carpeta y abrirla en pestaña
+Subir el volumen
+Bajar el volumen
+Silenciar
+Reproducir más lento
+Reajustar la velocidad
+Reproducir más rápido
+Saltar hacia atrás
+Pausar
+Saltar hacia delante
+Encoger la ventana
+Tratar de mostrar a tamaño completo
+Alargar la ventana
+Conmutar modo a tamaño completo
+Conmutar modo de esquina
+Pantalla completa
+Empezar a renombrar la carpeta actual
+Enfocar el cuadro de búsqueda
+Maximizar horizontalmente la ventana
+Abrir ventana de opciones de la barra de botones
+Mover el cursor hacia la izquierda
+Mover el cursor hacia arriba
+Movere el cursor hacia la derecha
+Mover el cursor hacia abajo
+Encoger las barras de herramientas
+Expandir las barras de herramientas
+Mostrar u ocultar las barras de herramientas
+Mostrar u ocultar la barra de pestañas
+Mostrar u ocultar la barra de pestañas (inferior)
+Mover pestaña actual a la izquierda
+Mover pestaña actual a la derecha
+Conmutar Barra de Pestañas / Barra de Pestañas Inferior
+Mostrar el menú de registro de los movimientos de la pestaña activa
+Restaurar pestañas en la ventana previamente cerrada
+Limpiar historial reciente de pestaña
+Limpiar historial reciente de archivo
+Bloquear la ventana de vista previa a pantalla completa
+Reproducir la pista anterior
+Reproducir la pista siguiente
+Mover la ventana de pantalla completa al anterior monitor
+Mover la ventana de pantalla completa al siguiente monitor
+Mostrar cuadro de diálogo de Renombrar
+Iconos muy grandes
+Iconos grandes
+Iconos medianonos
+Iconos pequeños
+Lista
+Detalles
+Mosaicos
+Contenido
+Ordenar por nombre
+Ordenar por tamaño
+Ordenar por tipo
+Ordenar por fecha de modificación
+Pegar en las carpetas seleccionadas
+Mostrar / ocultar vista extra (abajo)
+Mostrar / ocultar vista extra (izquierda)
+Focalizar en vista extra (abajo)
+Focalizar en vista extra (izquierda)
+Copiar los archivos seleccionados en vista extra (abajo)
+Copiar los archivos seleccionados en vista extra (izquierda)
+Copiar los archivos seleccionados en la vista por defecto
+Mover archivos seleccionados a la vista extra (abajo)
+Mover archivos seleccionados a la vista extra (izquierda)
+Mover los archivos seleccionados a la vista por defecto
+Crear enlace de archivos seleccionados en vista extra (abajo)
+Crear enlace de archivos seleccionados en vista extra (izquierda)
+Crear enlace de archivos seleccionados en vista por defecto
+Iniciar/detener sincronización de desplazamiento de vistas
+Iniciar/detener sincronización de navegación de vistas
+Ubicaciones de sincronización de vistas con vista enfocada
+Ubicaciones de sincronización de vista enfocada con otras vistas
+Copiar los archivos seleccionados a otra vista (a la vista prioritaria desde la vista por defecto si ambas vistas están activas, y a la vista por defecto desde una vista extra)
+Mover los archivos seleccionados a otra vista (a la vista prioritaria desde la vista por defecto si ambas vistas están activas, y a la vista por defecto desde una vista extra)
+Crear enlace de  los archivos seleccionados a otra vista (a la vista prioritaria desde la vista por defecto si ambas vistas están activas, y a la vista por defecto desde una vista extra)
+Enfocar siguiente vista
+Caja de filtro de enfoque asociada a la vista enfocada
+Mover pestaña activa a vista predeterminada
+Mover pestaña activa a vista extra (abajo)
+Mover pestaña activa a vista extra (izquierda)
+Mover pestaña activa a otra vista (a la vista prioritaria desde vista predeterminada, si ambas están activas, y a la vista predeterminada dede una vista extra)
+Sincronizar localizaciones de las otras vistas con la vista enfocada
+Activar la 1ª pestaña en la vista enfocada
+Activar la 2ª pestaña en la vista enfocada
+Activar la 3ª pestaña en la vista enfocada
+Activar la 4ª pestaña en la vista enfocada
+Activar la 5ª pestaña en la vista enfocada
+Activar la 6ª pestaña en la vista enfocada
+Activar la 7ª pestaña en la vista enfocada
+Activar la 8ª pestaña en la vista enfocada
+Activar la 9ª pestaña en la vista enfocada
+Activar la 10ª pestaña en la vista enfocada
+Seleccionar coincidencia anterior (búsqueda incremental)
+Seleccionar coincidencia siguiente (búsqueda incremental)
+Seleccionar todas las coincidencias (búsqueda incremental)
+</ShortcutKeyName>
+
+
+<TabBar>
+Esta carpeta ha sido cortada.
+No se puede copiar esta carpeta.
+Esta carpeta no se puede cortar.
+No se puede eliminar esta carpeta.
+No se puede eliminar un elemento.
+Pegado a esta carpeta.
+No se pudo pegar en esta carpeta.
+</TabBar>
+
+
+<TabBarDragAndDrop>
+Copiar a:
+Mover a:
+Crear acceso directo en:
+Copiar ena {0}
+Mover a {0}
+Crear acceso directo en {0}
+Eliminar permanentemente
+Crear una pestaña aquí
+Mover la pestaña aquí
+Abrir en una nueva ventana
+No se permite duplicar.
+Abrir el grupo de pestañas aquí
+</TabBarDragAndDrop>
+
+
+<TabBarMenu>
+&amp;Cerrar
+Cerrar a la &amp;derecha
+Cerrar a la &amp;izquierda
+Cerrar &amp;todo menos esta
+&amp;Añadir a grupo
+Crear nuevo &amp;grupo...
+Añadir a la &amp;biblioteca
+Crear &amp;nueva biblioteca...
+Blo&amp;quear
+Desbloq&amp;uear
+Etiqueta de pestaña(&amp;X)
+Clonar &amp;pestaña
+Abrir nueva &amp;ventana
+Copiar la &amp;ruta
+Accio&amp;nes de la vista actual
+&amp;Historial de pestaña
+Grupos
+&amp;Pestañas recientes
+&amp;Archivos recientes
+&amp;Última activada
+&amp;Buscar carpeta...
+Cerrar todo &amp;menos actual
+Cerra&amp;r la ventana
+Combinar pestañas de otras ventanas
+&amp;Ordenar pestañas
+&amp;Restaurar pestañas en la ventana anterior
+&amp;Deshacer pestaña cerrada
+Cerrar este gr&amp;upo
+Cerrar todas las pestañas e&amp;xcepto este grupo
+Abrir este grupo en u&amp;na nueva ventana
+Cerrar &amp;todas las pestañas
+Sincronizar posición &amp;horizontal con la vista por defecto
+</TabBarMenu>
+
+
+<TabBarMenuOrder>
+Por &amp;nombre
+Por &amp;ruta de acceso
+Por &amp;activación
+Rever&amp;tir
+</TabBarMenuOrder>
+
+
+<TabBarMenuViewActions>
+Seleccionar &amp;todo
+&amp;Invertir selección
+Crear &amp;acceso directo
+&amp;Copiar a la carpeta...
+&amp;Mover a la carpeta...
+&amp;Copiar a la pestaña...
+&amp;Mover a la pestaña...
+Crear &amp;acceso directo en la pestaña...
+&amp;Copiar desde la carpeta...
+&amp;Mover desde la carpeta...
+Crear &amp;acceso directo desde la carpeta...
+&amp;Renombrar elementos...
+</TabBarMenuViewActions>
+
+
+<TabBarTooltip>
+Cierra esta pestaña.
+Cierra las pestañas a la derecha de esta.
+Cierra las pestañas a la izquierda de esta
+Cierra todas las pestañas menos esta.
+Elegir un grupo para añadir esta pestaña.
+Crea un nuevo grupo y añade esta pestaña como integrante.
+Elegir una biblioteca para añadir esta pestaña.
+Crea una nueva biblioteca y añade esta pestaña como integrante.
+Bloquea o desbloquea esta pestaña.
+Etiqueta temporal para esta pestaña.
+Clona esta pestaña y la añade a la barra.
+Esta pestaña se abrirá en una nueva ventana.
+Copia en el portapapeles la ruta de esta carpeta.
+Menú de comandos de la vista de la carpeta actual.
+Corta al portapapeles la carpeta representada por esta pestaña.
+Copia al portapapeles la carpeta representada por esta pestaña.
+Pega los datos desde el portapapeles en la carpeta representada por esta pestaña.
+Crea accesos directos en la carpeta representada por esta pestaña de los artículos que ha copiado o cortado.
+Elimina la carpeta representada por esta pestaña.
+Cambia el nombre de la carpeta representada por esta pestaña.
+Muestra las propiedades de la carpeta representada por esta pestaña.
+Menú del historial de esta pestaña.
+Activa la última pestaña activada antes de la actual.
+Selecciona una carpeta para abrirla como pestaña.
+Cierra todo menos la pestaña activa.
+Cierra esta ventana.
+Mueve todas las pestañas que son propiedad de otras ventanas del explorador y las cierra.
+Menú para organizar el orden de las pestañas.
+Organizar pestañas por nombre.
+Organizar pestañas por ruta.
+Organizar pestañas por orden de activación.
+Invertir el orden de las pestañas.
+Restaurar pestañas en la ventana previamente cerrada.
+Abrir la última pestaña cerrada.
+Cerrar pestañas en el mismo grupo que éste.
+Cerrar todas las pestañas excepto las de este grupo
+Abre pestañas en el mismo grupo que éste en una nueva ventana.
+Cerrar todas las pestañas en esta vista extra.
+Sincronizar posición horizontal con la vista predeterminada al habilitar una vista extra a la izquierda.
+</TabBarTooltip>
+
+
+<TabBarTooltipViewActions>
+Selecciona todos los elementos de la ventana.
+Invierte los elementos que se seleccionan y cuáles no.
+Crea accesos directos de los elementos seleccionados.
+Copia los elementos seleccionados en otra ubicación.
+Mueve los elementos seleccionados a otra ubicación.
+Copia los elementos seleccionados en otra pestaña.
+Mueve los elementos seleccionados a otra pestaña.
+Crea accesos directos a los elementos seleccionados en otra pestaña.
+Selecciona archivos y carpetas y los copia en esta pestaña.
+Selecciona archivos y carpetas y los mueve a esta pestaña.
+Selecciona archivos y carpetas y crea sus accesos directos en esta pestaña.
+Muestra para esta carpeta el cuadro de diálogo Renombrar.
+</TabBarTooltipViewActions>
+
+
+<VersatileBarMenu>
+&amp;Añadir elementos
+Añadir &amp;grupo
+Añadir todos los grupos
+Añadir &amp;aplicaciones
+Añadir &amp;carpetas y &amp;archivos...
+Añadir todas las &amp;unidades
+Añadir &amp;separador
+&amp;Etiqueta del icono
+&amp;Activar/Desactivar etiquetas
+Icono &amp;encima de la etiqueta
+Icono &amp;antes de la etiqueta
+&amp;Tamaño de los iconos
+&amp;Pequeño
+&amp;Medio
+&amp;Grande
+E&amp;xtra grande
+&amp;Bloquear elementos
+Abrir en la &amp;pestaña actual
+&amp;Mostrar etiqueta
+&amp;Editar etiqueta
+&amp;Quitar de la barra
+Grupo: 
+Argumentos: 
+Directorio de trabajo:
+Permitir empezar al &amp;arrastrar elementos 
+Permitir soltar a los elementos hermanos
+&amp;Tamaño extra
+Abrir en una nueva &amp;pestaña
+Abrir en pestaña en &amp;segundo plano
+E&amp;jecutar
+&amp;Editar...
+Pequeño (&amp;24)
+Pequeño (&amp;32)
+&amp;Crear nuevo...
+&amp;Menú contextual Shell
+E&amp;xportar...
+Añadir botón &amp;plugin...
+Añadir carpeta &amp;virtual...
+</VersatileBarMenu>
+
+
+<ViewColor>
+Establecer texto y color de fondo...
+</ViewColor>
+
+
+<ViewSync>
+Sincronizar vistas
+Desplazamiento
+Navegación
+La sincronización de navegación está cancelada
+</ViewSync>
+
+
+<UserInitialization>
+Carpetas del sistema
+Carpetas de usuario
+Unidades de disco
+Alternar vista extra (abajo)
+Alternar vista extra (izquierda)
+Renombrar...
+</UserInitialization>
+
+
+<!--DATA END-->
+
+</root>

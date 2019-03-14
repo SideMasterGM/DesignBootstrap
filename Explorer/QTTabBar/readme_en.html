@@ -1,0 +1,587 @@
+﻿<!DOCTYPE html> 
+<html>
+<head>
+	<title>Read me - QTTabBar 1038</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<style type="text/css">
+	<!--
+		body { font-family: Segoe UI; font-size: 10pt }
+		.desc { padding-right: 3em; }
+		.code { background-color: #E1E1E1;padding:4px}
+		.footer { padding-left: 3em;}
+		blockquote { margin-top: 0.3em; }
+		.NewSection { color: red; }
+	//-->
+	</style>
+
+</head>
+<body>
+
+<h3 style="margin-top:1em;">QTTabBar version 1038 </h3>
+<h3>Release Notes</h3>
+<br>
+
+<div style="margin-left:2em;">
+	<div style="margin-left:5em; width: 20%; border: 1px solid silver;">
+		<p style="text-align:center">TOC</p>
+		<ol>
+			<li><a href="#fix">Change logs</a></li>
+			<li><a href="#requirements">Requirements</a></li>
+			<li><a href="#install">Install</a></li>
+			<li><a href="#uninstall">Uninstall</a></li>
+			<li><a href="#tools">Tools</a></li>
+		</ol>
+		<ul>
+			<li><a href="http://qttabbar.wdfiles.com/local--files/documents/summary.html">QTTabBar manual in web site</a></li>
+		</ul>
+	</div>
+<br>
+<br>
+
+	<h4 id="fix" id="fix">Change Logs</h4>
+	<div style="margin-left:5em;">
+		(Fixed in 1038)
+		<blockquote>
+			- Error of Option window when Visual Style is disabled in Windows7.
+		</blockquote>
+
+		(Fixed in 1037)
+		<blockquote>
+			- "Delete" button of "FileTools plugin pack" won't work. The plug-in is also updated, "Undo" button has stopped working. <br>
+			- QTPluginLib.dll is updated to 1.3.0.1.
+		</blockquote>
+
+		(New and Fixed in 1036)
+		<blockquote>
+			- Improved support for Per-monitor DPI of Windows8.1 and 10.<br>
+			- Added new commands: GetSystemDPi, GetWindowDpi, GetDpiFromPoint. New property of Window object: Window.Dpi.<br>
+			- Update "Window Manager" plug-in to support Per-monitor DPI environments.<br>
+			- Option to do File Search by filter box of Extra views.<br>
+			- Tune of timing that triggers the event "Window is opened"<br>
+			- Scripting commands after "Cut" now work with focused view.<br>
+			- option to enable hardware rendering of H.264 videos on sub monitors. Default value is 'On'. Formerly 'Off' and no option.<br>
+			- Corrected hiding other application windows by mouse move on folder view.<br>
+			- Corrected return values of commands - ScrollView, GetColumnWidth.<br>
+			- Invoking undefined commands now causes no error.<br>
+		</blockquote>
+
+		(Fixed in 1035)
+		<blockquote>
+			- Desktop tool crashes.<br>
+			- Toolbar names are garbled in Japanese environments.
+		</blockquote>
+
+		(New and Fixed in 1034)
+		<blockquote>
+			- Supports virtual desktop of Windows10. An option is added that allows to choose how to capture when folder window is in other desktop.<br>
+			- An option to enable / disable blue focus rectangle in Compatible View.<br>
+			- Dynamic custom color of Compatible View<br>
+			- Fixed the issue of background color of focused item on Desktop.<br>
+			- Fixed a bug: new group can overwrite with a name that is different only in letter case.<br>
+			- Added a tool named "ExplorerSafeMode.exe", which opens a new folder window without QTTabBar and other toolbars.<br>
+			- Built using Visual Studio 2015 on Windows10.<br>
+			- Advance notice: Update of requirements is scheduled, because support of Microsoft for .NET Framework 4.0 will end on January 12, 2016.<br>
+			
+		</blockquote>
+
+		(Fixed in 1033)
+		<blockquote>
+			- Size of Extra view is not saved in some languages.<br>
+			- Condition "Location" of Custom color is ignored and colors are applied to desktop.<br>
+			- Icon picker dialog fails to get an icon from ".ico" files!<br>
+			- Preview for ".ico" files - the largest icon in the file.<br>
+		</blockquote>
+
+		(1032)
+		<blockquote>
+			(Repackaged)
+			I made a mistake and released 1030 as 1031.
+		</blockquote>
+		
+		(Fixed in 1031)
+		<blockquote>
+			Explorer process crashes when opening "Network" folder. This occurs when Compatible view is enabled and view is "Details".<br>
+		</blockquote>
+	
+		(New in 1030)
+		<blockquote>
+			Improvement in look and feel of Compatible view - "focus rectangle" is almost removed.<br>
+			Incremental search on subfolder menu.<br>
+			Incremental search on desktop while Desktop Tool is enabled.<br>
+			"Plus" button in tabbar to invoke commands.<br>
+			Now Preview delay cab be 0.<br>
+			Modern icon picker dialog.<br>
+			File renamer supports labeled groups.<br>
+			Detects installed compressed folder extensions.<br>
+			Supports MouseGestureL on AutoHotKey. (Restrictions are below)<br>
+			New commands: GetIconSize, SetIconSize, GetCommandName, GetVersion, GetPluginLibVersion, GetColumnWidth, SetColumnWidth, ClearPreviewCache, ScrollView.
+		</blockquote>
+
+		(Fixed in 1030)
+		<blockquote>
+			Code paths that ignore Network timeout value.<br>
+			File renamer does not replace substitutions ($).<br>
+			Now update checker is displayed only when a new version is found.<br>
+			Compatible views with grouping sometimes stop responding by holding cursor keys pressed.<br>
+			Explorer that is opened with "/root" switch displays multiple error dialogs.<br>
+			Cursor loops won't work in RTL.<br>
+			Tab key is not passed to Input Method while renaming file in Compatible view.<br>
+			
+			<br>
+			(Trivials)<br>
+			A plug-in event "ActiveViewChanged" passes wrong View value.<br>
+			Language file editor: template file has not been updated in recent versions.<br>
+			Language file / skin downloaders have a problem in sorting items in some languages.<br>
+			Width of vertical Command bar is not saved.<br>
+			IBarCustomButton plug-in buttons disappear after they are edited.<br>
+			Maximums of recent tab and recent file are not imported from xml file.<br>
+			Textboxes in Option Window won't accept pasting texts.<br>
+			Position of scroll button of tabbar in RTL.<br>
+			Static plug-ins cannot have option.<br>
+			and more.
+		</blockquote>
+		Restrictions with MouseGestureL
+		<blockquote>
+			Moving mouse cursor over non-Compatible view consumes CPU time when MouseGestureL options "Show Gesture Trail" and "Draw Trail into Overwrapped Window" are both enabled.<br>
+			MouseGestureL with administrator privilege will not work together with QTTabBar.
+		</blockquote>
+<br>
+<br>
+		(New in 1029)
+		<blockquote>
+			- Now captures windows that are opened by Start menu and jumplist of Windows 10.<br>
+			<blockquote>
+				Looking for a better way to capture Win+E in Windows 10.
+			</blockquote>
+			- Reformed Extended renaming feature. 
+			<blockquote>
+				Supports renaming multiple files and folders using a list of new names.
+			</blockquote>
+			- Now Application Launcher button accepts drops to register files. <br>
+			- New keywords in Command Button – <i>%tab%</i> and <i>%tabpath%</i> that are substituted by Tab object and path string of tab when used in Tab events.<br>
+			- Keywords that represent selections such as %f% are now substituted by selection paths in the view owned by the tab, when used in Tab events.<br>
+			- New option 'Blend with custom color" in Selected column bg color of Compatible View.<br>
+			- Added a few Scripting commands – <i>EnsureItemVisible</i>, <i>RenameMultiple</i>, <i>SetExtraViewSize</i>.
+		</blockquote>
+
+		(Fixed in 1029)
+		<blockquote>
+			- Option "No capture from Desktop" is ignored.<br>
+			- Extra View size is not restored after a maximized window is closed.<br>
+			- Folder window flickers on opening, especially when Extra Views are enabled.<br>
+			- Option window can freeze when menu style has changed.<br>
+			- Continuous renaming files by Tab and Shift + Tab key is now available in Compatible View too.<br>
+			- Desktop Tool menu pops up at wrong position in Right-to-Left environments.<br>
+			- Desktop Tool fails to initialize when the computer is under a heavy load situation such as cold start.<br>
+			- Desktop Tool menu is turned off after menu titles are rearranged.<br>
+			- Command <i>MoveTabToView</i> does not work.<br>
+		</blockquote>
+<br>
+<br>
+		(New in 1028)
+		<blockquote>
+			- Enhanced incremental search in view. <br>
+			<blockquote>
+				You can select files by typing some characters of middle of file names.<br>
+				IFilter plug-in can be used in incremental search in view. <br>
+				It might be useful if an IFilter plugin is installed that translates alphabetical inputs into Chinese/Japanese/Korean regular expressions.<br>
+			</blockquote>
+			- Windows 10 style menu<br>
+		</blockquote>
+
+		(Fixed in 1028)
+		<blockquote>
+			- Original right-button drag-and-drop menu is now abandoned.<br>
+			- Nothing happens when files are dropped onto executables in Command Bar.<br>
+			- Fails to open a folder in <i>Quick access</i> of Windows10 when its name contains a comma.<br>
+			- Menu renderer problems in RTL and High-DPI environments.<br>
+			- Now uses <i>CurrentUICulture</i> (UI Language) instead of <i>CurrentCulture</i> (Region) to detect RTL environment.<br>
+			- Window flickers on opening.<br>
+			- Drop helper won't work when target is a link.<br>
+		</blockquote>
+
+<br>
+<br>
+		(New in 1027)
+		<blockquote>
+			- Extra Views follow window resize. Options -> Extra View<br>
+			- Tabs in Extra Views now can be placed above the view.<br>
+			- A option to fix position of Tab Bar (top) at the left of Default View.<br>
+			- Tab Bar (top) is now aligned in the bottom when other toolbars exist in the row.<br>
+			- Tabs and toolbars accept right drag & drop and show menu.<br>
+			- Tab switcher window works in the Extra Views.<br>
+			- Commands interpret double-quoted and space-separated string as multiple file paths. This means that keywords such as <i>%f%</i> can be used by commands such as <i>NewTab</i> that take files and folders as arguments.<br>
+			- New option of File Commands to wait until script process terminates.<br>
+			- New Scripting Commands: <i>OpenFileDialog</i>, <i>SaveFileDialog</i>, <i>FolderBrowserDialog</i>.<br>
+			- Arguments of <i>DeleteFile</i> command has changed. Old style is still supported.<br>
+			- Correct explanations of Tab background and text rendering modes in the option window.<br>
+			- Options -> Appearance -> Tab -> Tab icon offsets.<br>
+			- (Experimental) Option to copy files and folders without changing their time stamps (Date created). Options -> Misc -> Shell<br>
+		</blockquote>
+
+		(Fixed in 1027)
+		<blockquote>
+			- Mouse wheels and keyboard shortcuts are eaten by Control Panel window when displayed in Extra Views.<br>
+			- Windows are captured even if configured not to do so.<br>
+			- IFilter, IFilterCore, and IEncodingDetector plugins are unloaded after options are saved.<br>
+			- Toolbar background image was drawn for invisible toolbars when "Stretch on each band".<br>
+			- Toolbar positions are sometimes cleared depending on the order of activation of toolbars.<br>
+			- Script files that are executed on the Command Bar takes longer time than suspected because of a bug of a new feature introduced in 1026 (<i>SetReturn</i>)<br>
+			- Uninstaller forgets to delete a registry key <i>HKEY_CURRENT_USER\Software\Classes\Folder\shell\QTTabBar.openInView</i><br>
+			- In Windows8 and 10, view borders caused rendering garbages when scrolled.<br>
+		</blockquote>
+
+<br>
+<br>
+		(New in 1026)
+		<blockquote>
+			- View border color option for Windows 8.x/10. (Options->Folder View)<br>
+			- High-DPI supports - breadcrumb bar of Extra Views and other buttons.<br>
+			- <i>SetReturn</i> method is added to Scripting object. Now script file can return a value that can be used in Command Bar Buttons. <br>
+			- Command Bars ask if it's OK when multiple files and folders are dropped.<br>
+			- File Command Button now can be dropped to folder or application file buttons.<br>
+			- Preview - command to play next / previous track now loops in items in the folder view.<br>
+			- Choose-tab dialog includes tabs in Extra Views. Now it also allows to add target folders.<br>
+			- Built-in keyboard shortcuts (Ctrl + 1,2,...,0 which activate 1st-10th tab) are now removed.<br>
+			- "Open in other view" command in context menu of folders on desktop.<br>
+			- "Help" connects to the web document, which is still under construction though.<br>
+		</blockquote>
+
+		(Fixed in 1026)
+		<blockquote>
+			- Preview window steals key inputs.<br>
+			- Fullscreen Preview window passes through keys such as DEL key and arrow keys to folder view.<br>
+			- Preview thread freezes. <br>
+			- Text label position of Command Bar 1 reverts to "Icon before label" after explorer restarts.<br>
+			- Error message is displayed when starting games in Game Explorer.<br>
+			- Error message is displayed when icon size of Command Bar changed in High-DPI environments.<br>
+			- RTL supports - now Extra Views work some better in Right-to-Left environments.<br>
+			- RTL supports - menus, command bars, drop helper windows, etc.<br>
+			- Group colors are not included in setting export.<br>
+			- Group colors are now drawn much better.<br>
+			- Tab group colors are not drawn in "classic" mode.<br>
+			- Tooltips flicker due to mouse cursor especially around the edges of monitors.<br>
+			- EmptyRecycleBin command does not work.<br>
+			- System.ArgumentOutOfRangeException is thrown probably due to thread contentions.<br>
+			- Tabs in Extra Views ignore lock.<br>
+			- "Do not show me this dialog" checkbox in confirmation dialogs sometimes do not work.<br>
+			- After a folder created by Ctrl + Shift + N, the file list scrolls and the new item might go out of view in Compatible mode.<br>
+			- Desktop tool displays menu in wrong position in High-DPI environments because QTPopup.exe used auto-scaled coordinate space.<br>
+		</blockquote>
+
+<br>
+<br>
+
+		(New in 1025)
+		<blockquote>
+			- Change: Basic-command menus in Command Bar (Group, Application Launcher, and Recent Tabs) now target the focused view when its "Associated view" option is set to "Not specified".<br>
+			<blockquote>
+				This affects which view tabs are opened in, and arguments / working directories of launched applications.<br>
+				If you like old behavior, set the "Associated view" to "Default".
+			</blockquote>
+			- You can add an application to Application Launcher Menu by dropping onto it. The menu will appear by hovering over the Application Launcher button in the Command Bar.
+			<blockquote>
+				In addition, now you can launch an application by dropping files on the menu item.
+			</blockquote>
+			- An option to change active tab by mouse wheel with mouse Right button pressed.<br>
+			- An option not to capture from desktop.<br>
+			- Now Extra Views are automatically set visible when tabs are opening in it.<br>
+			- An option to hide Extra View when all the tabs in the view are closed.<br>
+			- Extra View default location.<br>
+			- Warning when trying to uninstall using older QTTabBar.exe than installed.<br>
+			- New commands:
+			<blockquote>
+				"MoveTabToView" to move a tab between views.<br>
+				"CopyFile", "MoveFile", and "DeleteFile" to manipulate files specified by path.<br>
+				"PasteToFolder" pastes files in the Clipboard to specified folder.<br>
+				"EmptyRecycleBin"<br>
+				"OrderTab" to sort tabs.
+			 </blockquote>
+		</blockquote>
+
+		(Fixed in 1025)
+		<blockquote>
+			- In Compatible view, after user deletes some files by pressing DEL key, Explorer might delete next file or folder by another DEL key even though it looks like that no items are selected.<br>
+			- In Compatible view with base text color, custom colors are not correctly applied to texts in the selected column of the Details view.<br>
+			- In Compatible view, base text colors are not correctly applied without base background color, when getting / losing focus.<br>
+			- Double click and middle click do not work on the Control panels.<br>
+			- Keyboard shortcuts do not work which manipulate Preview window.<br>
+			- Preview window steals keys while renaming files.<br>
+			- Size of movie Preview window is not persistent.<br>
+			- Options of Navigation Pane (click event, colors) stop working after the tree window is recreated, for instance, by accessing Control Panels.<br>
+			- Toolbar background image is not drawn appropriately, especially when the image file is containing transparent part.<br>
+			- "Compute hash of selected files" function overwrites Keyboard shortcut "Ctrl + Shift + N" by default. <br>
+			<blockquote>
+					Now Ctrl + Shift + N can create a new folder in Extra views.<br>
+			</blockquote>
+			- Plug-in "Create new text file" in "CreateNewItemButtons.dll" does not work at all.<br>
+			- Plug-in buttons fails to draw icons after moved between Command Bars by drag & drop until window is reopened.<br>
+			- Exception can be thrown because of plug-ins when folder window is about to close.<br>
+			- Extra Views fail to open tabs when "New tab location" is set to "Right".<br>
+			- Tabs are opened (typically as a group) in reverse order when "New tab location" is set to "Right" or "Most left".<br>
+			- Middle click on Command Buttons can be triggered accidentally.<br>
+			- Command Buttons that represent disconnected network folder cannot be moved by drag & drop.<br>
+			- Command Buttons that represent disconnected network folder lose their icons.<br>
+			- Command Buttons that represent disconnected network folder affect performance badly.<br>
+			- The auto-play handler to open folder window stops working after the option "Add command such as 'Open in new tab' to folder context menu" is disabled in Option -> Folder View -> Shell context menu.<br>
+			- Capturing some kind of special folder can throw exception (E_NOINTERFACE).<br>
+			- Added codes to try to fix the issue - Explorer crashes with an entry about "WindowSubclass" in Windows Event Log.<br>
+			<br>
+			Reported but currently not reproduced / need of further investigation<br>
+			<blockquote>
+				- Crash by right-click on dead-link files.<br>
+				- Folder verbs remain undeleted after QTTabBar is uninstalled.<br>
+				- Access violation when reading registry keys in HKEY_LOCAL_MACHINE.<br>
+			</blockquote>
+		</blockquote>
+
+
+<br>
+<br>
+		(New in 1024)
+		<blockquote>
+			- Extra views
+			<blockquote>
+				Additional 2 folder views in an Explorer window.<br>
+				Tabbed and full-featured.<br>
+			</blockquote>
+			- Event options<br>
+			<blockquote>
+				Now commands can be assigned to Explorer events.
+			</blockquote>
+			- New Tab text rendering mode : GDI - rendered by GDI.<br>
+			- Tab supports font styles - italic, underlined, etc.<br>
+			- View background and text colors while views have focus. (only in Compatible view mode on Windows8.x and later)<br>
+			- Now you can set your favorite view watermark image files. (Compatible view)<br>
+			- Scripting enhancements.<br>
+			<blockquote>
+				Supports extra views.<br>
+				"Arguments" property and other new methods.<br>
+				10 more new ScriptingCommands.
+			</blockquote>
+			- Keyboard shortcuts "Copy path" and "Copy name" work while the folder tree has focus.<br>
+			- Command button enhancements.<br>
+			<blockquote>
+				Supports extra views. Command buttons can be associated to a specifc view.<br>
+				Drag & drop supports.<br>
+				Window size of applications launched by File Command.<br>
+			</blockquote>
+			- An option to play sounds in system audio sesion - using System sound volume.<br>
+			- Incremental search in Option window.<br>
+			- Plugins - Extra view support.<br>
+			- Language file editor: New translation support for Malay, Maltese and Klingon.<br>
+			etc.
+		</blockquote>
+		
+		(Fixed in 1024)
+		<blockquote>
+			'QTTabBar command' item duplication in 'File' menu in menu bar.<br>
+			Scripts fail to SetData / GetData QCollection objects.<br>
+			Scripting processes may receive entangled results.<br>
+			Scripting.Tab.SelectedItems returns wrong path for inactive tabs.<br>
+
+			Libary Folders in FolderTree are now navigatable without expanded under Computer.<br>
+			 ** as a known issue, going up brings you to a weird folder...<br>
+			Drag & drop won't start from Navigation pane.<br>
+			Keyboard shortcuts won't work in Control Panels.<br>
+			Single-row mode TabBar might fall into an infinite loop and freeze when a tab is larger than the bar.<br>
+			View and folder tree might scroll in reverse direction by Options -> Folder view -> "Scroll *** without focusing"<br>
+			View forgets its selection-marked item - an item that selection started - after active tab changed.<br>
+			Imported commands are incorreclty rebuilt: "Working directory" is mistaken as "Arguments" when Arguments is empty.<br>
+			Additional keyshortcuts to move cursor on the view won't work.<br>
+			Menu max character is not saved.<br>
+			etc.
+		</blockquote>
+	</div>
+</div>
+
+<br>
+<br>
+
+<div style="margin-left:2em;">
+	<h4 id="requirements">Requirements</h4>
+	<div style="margin-left:5em;">
+		Windows 7, 8, 8.1, 10 (32bit/64bit) + .NET Framework 4.0 or later.
+	</div>
+	
+	<h4 id="install">Install</h4>
+	<div style="margin-left:5em;">
+		Run the installer - QTTabBar.exe.<br>
+		In Windows 7, QTTabBar is under View - Toolbars in the Menu Bar. If Menu Bar isn't visible, please set it visible from "Organize" button of the folder band. (<a href="#fig1">figure. 1</a>)<br/>
+		In Windows 8 and 10, you can activate it from drop-down menu of 'Options' button of 'View' tab in the Ribbon. (<a href="#fig2">figure. 2</a>)
+		<p>
+			For more information, refer to the <a href="http://qttabbar.wdfiles.com/local--files/documents/install.html">documents</a>.
+		</p>
+	</div>
+	<br>
+	<div style="margin-left:10em;">
+		<figure id="fig1">
+			<a href="readmeimages/install_7menubar.png">
+				<img src="readmeimages/install_7menubar.png" width="325" height="185"/>
+			</a>
+			<figcaption>figure. 1 - From menu bar...</figcaption>
+		</figure>
+
+		<br/>
+
+		<figure id="fig2">
+			<a href="readmeimages/install_8opt.png">
+				<img src="readmeimages/install_8opt.png" width="314" height="293"/>
+			</a>
+			<figcaption>figure. 2 - "Options" button in the Ribbon.</figcaption>
+		</figure>
+	</div>
+	
+
+	<br>
+	<h4 id="uninstall">Uninstall</h4>
+	<div style="margin-left:5em;">
+		Run QTTabBar.exe.
+		Old QTTabBar can be uninstalled by the newest QTTabBar.exe.
+	</div>
+</div>
+
+<br><br>
+
+<div style="margin-left:2em;">
+	<h4 id="tools">Tools</h4>
+
+	<div style="margin-left:2em;">
+		Tools are installed to C:\Program Files\QTTabBar.<br>
+
+<br>
+		<h4>QTPopup.exe</h4>
+		<div style="margin-left:5em;">
+			Displays Desktop Tool Menu.<br>
+			To activate Desktop Tool, right click on taskbar and check <i>Toolbars -> QT Tab Desktop Tool</i>.<br>
+			Desktop Tool provides QTTabBar functionalities to desktop view.<br>
+			Also shows group/recent tab menus etc. by double-click on taskbar and desktop.<br>
+			QTPopup.exe commands to show these menus.<br>
+			<br>
+
+			<h5>Usage</h5>
+
+			<pre><span class="code">QTPopup.exe [/X:xpos] [/Y:ypos] [/desktopcontents] [/group] [/recenttab] [/applauncher] [/recentfile]</span></pre>
+
+			<table border="0">
+				<tr>
+					<td>/X</td>
+					<td>x position where the menu is displayed.</td>
+				</tr>
+				<tr>
+					<td>/Y</td>
+					<td>y position where the menu is displayed.</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>ex /X:500 /Y:300<br>Pops up at mouse cursor without location specified.</td>
+				</tr>
+				<tr>
+					<td>/group</td>
+					<td>Displays group menu.</td>
+				</tr>
+				<tr>
+					<td>/recenttab</td>
+					<td>Displays recent tab menu.</td>
+				</tr>
+				<tr>
+					<td>/applauncher</td>
+					<td>Displays application launcher menu.</td>
+				</tr>
+				<tr>
+					<td>/recentfile</td>
+					<td>Displays recent file menu.</td>
+				</tr>
+				<tr>
+					<td class="desc">/desktopcontents</td>
+					<td>Displays items on the desktop in menu.</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+				</tr>
+			</table>
+			<br>
+			/group, /recenttab, /applauncher, /recentfile, /desktopcontents can be used alone.
+		</div>
+
+		<br><br>
+
+		<h4>RestoreWindow.exe</h4>
+		<div style="margin-left:5em;">
+			Restores tabs contained by a previous window.
+
+			<h5>Usage</h5>
+
+			<pre><span class="code">RestoreWindow.exe [/w]</span></pre>
+
+			<table border="0">
+				<tr>
+					<td class="desc">/w</td>
+					<td>Restores tabs in new folder window.</td>
+				</tr>
+			</table>
+		</div>
+
+
+		<br><br>
+
+		<h4>Distributor.exe</h4>
+		<div style="margin-left:5em;">
+			Edits, downloads or uploads Language file, and downloads or uploads skin image files.
+
+			<h5>Usage</h5>
+
+			<pre><span class="code">Distributor.exe [/L] [/I]</span></pre>
+
+			<table border="0">
+				<tr>
+					<td class="desc">(no arguments)</td>
+					<td>Runs Language File Editor.</td>
+				</tr>
+				<tr>
+					<td class="desc">/L</td>
+					<td>Runs Language File Downloader.</td>
+				</tr>
+				<tr>
+					<td class="desc">/I</td>
+					<td>Runs Image File Downloader.</td>
+				</tr>
+			</table>
+
+			<br>
+
+			<h5>Language File Editor</h5>
+			<div style="margin-left:5em;">
+				Old language files need to be converted with Language File Editor.  First "Load from file..." and then "Save As..".<br>
+				<br><br>
+				Microsoft Translator supports -<br><br>
+				<span>Arabic, Bulgarian, Catalan, Chinese (Simplified), Chinese (Traditional), Czech, Danish, Dutch, English, Estonian, Persian (Farsi), Finnish, French, German, Greek, Haitian Creole, Hebrew, Hindi, Hmong Daw, Hungarian, Indonesian, Italian, Japanese, Klingon, Korean, Latvian, Lithuanian, Malay, Maltese, Norwegian, Polish, Portuguese, Romanian, Russian, Slovak, Slovenian, Spanish, Swedish, Thai, Turkish, Ukrainian, Vietnamese</span>
+			</div>
+		</div>
+		
+		<br><br>
+
+		<h4>ExplorerSafeMode.exe</h4>
+		<div style="margin-left:5em;">
+			Opens a folder window without QTTabBar.<br>
+			This clears explorer toolbar layouts, so other toolbars are also disabled.
+		</div>
+
+		
+	</div>
+</div>
+
+<br><br>
+
+<hr width="95%" align="center">
+<span class="footer">QTTabBar 1038, 2015-12-8, </span>
+<a href="http://qttabbar.wikidot.com/qttabbar">http://qttabbar.wikidot.com</a>
+<br><br>
+
+</body>
+</html>
