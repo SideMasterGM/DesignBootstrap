@@ -1,0 +1,4 @@
+User-agent: *
+Allow: 
+
+Sitemap: http://contracostapavers.com/sitemap.xml
